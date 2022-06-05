@@ -41,8 +41,18 @@ export const BenefitItem: FC<IBenefitItem> = ({ value, index }) => {
             fontWeight="bold"
             letterSpacing="0.6em"
             textTransform="uppercase"
-			position="relative"
-			_after={{backgroundColor: '#FF0202', filter: 'blur(10px)', opacity: '0.2', position: 'absolute', left: '-2%', top: '0' , content: '""', width:"104%", height:"100%"}}
+            position="relative"
+            _after={{
+              backgroundColor: "#FF0202",
+              filter: "blur(10px)",
+              opacity: "0.2",
+              position: "absolute",
+              left: "-2%",
+              top: "0",
+              content: '""',
+              width: "104%",
+              height: "100%",
+            }}
           >
             {value.title}
           </Box>

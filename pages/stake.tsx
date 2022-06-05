@@ -5,7 +5,7 @@ import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
 import { Footer } from "../components/global/Footer/footer";
 import { PageHeader } from "../components/shared/PageHeader";
-import { IndexHeadingAddon } from "../components/pages/index/header";
+import { IndexHeadingAddon, StakeHeadingAddon } from "../components/pages/index/header";
 import { FAQ } from "../components/shared/FAQ/faq";
 import { BackgroundDark } from "../components/shared/containers/backgroundDark";
 import { TopIcons } from "../components/pages/stake/TopIcons/topIcons";
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </Box>
         <Navbar />
         <PageHeader
-          addon={<IndexHeadingAddon />}
+          addon={<StakeHeadingAddon />}
           description={
             "By staking with us and meeting additional criteria, you can count on additional benefits"
           }

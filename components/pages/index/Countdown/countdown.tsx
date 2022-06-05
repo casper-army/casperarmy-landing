@@ -12,6 +12,7 @@ export const Countdown = () => {
         display={{ base: "flex", md: "none" }}
         justify="center"
         padding="60px 0px"
+        
       >
         <Image src={ElementAssets.web3SpinnerTransparent}></Image>
       </Flex>

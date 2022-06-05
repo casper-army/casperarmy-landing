@@ -9,7 +9,10 @@ import { Footer } from "../components/global/Footer/footer";
 import { Steps } from "../components/shared/Steps/steps";
 import { PageHeader } from "../components/shared/PageHeader";
 
-import { IndexHeadingAddon } from "../components/pages/index/header";
+import {
+  CreatorHeadingAddon,
+  IndexHeadingAddon,
+} from "../components/pages/index/header";
 import { Features } from "../components/pages/index/Features/features";
 
 const Home: NextPage = () => {
@@ -30,7 +33,7 @@ const Home: NextPage = () => {
         </Box>
         <Navbar />
         <PageHeader
-          addon={<IndexHeadingAddon />}
+          addon={<CreatorHeadingAddon />}
           description={
             "Casper Network community project that unites DAO platform for creators and investors with a project incubation HUB Decentralized Autonomous Launchpad and Venture Capital"
           }

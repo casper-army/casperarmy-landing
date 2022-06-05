@@ -1,4 +1,6 @@
-import { Grid, Image } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image } from "@chakra-ui/react";
+import Link from "next/link";
+
 import { IconAssets } from "../../../config";
 import { HeaderButton } from "../../shared/Header/headerButton";
 
@@ -24,13 +26,74 @@ export const IndexHeadingAddon = () => (
     templateColumns={{ base: "auto", md: "1fr 1fr" }}
     templateRows={{ base: "1fr 1fr", md: "auto" }}
     gridGap={{ base: "8px", md: "22px" }}
-	w={{base: "80vw", md: 'auto'}}
-
+    w={{ base: "80vw", md: "auto" }}
   >
-    <HeaderButton>
-      Buy Call-Up Ticket
-      <Image src={IconAssets.arrowRight} />
-    </HeaderButton>
-    <HeaderButton ghost>How to become member</HeaderButton>
+    <Link href="/tickets">
+      <Grid>
+        <HeaderButton>
+          Buy a Call-Up Ticket
+          <Image src={IconAssets.arrowRight} />
+        </HeaderButton>
+      </Grid>
+    </Link>
+    <Link href="https://docs.casperarmy.org/docs/MEMBERSHIP/4.2-For-investors">
+      <Grid>
+        <HeaderButton singleItem ghost>
+          How to become member
+        </HeaderButton>
+      </Grid>
+    </Link>
+  </Grid>
+);
+
+export const StakeHeadingAddon = () => {
+  return (
+    <Grid
+      templateColumns={{ base: "auto", md: "1fr 1fr" }}
+      templateRows={{ base: "1fr 1fr", md: "auto" }}
+      gridGap={{ base: "8px", md: "22px" }}
+      w={{ base: "80vw", md: "auto" }}
+    >
+      <Link href="https://docs.casperarmy.org/docs/validator/7.2-How-to-stake">
+        <Grid>
+          <HeaderButton>
+            How TO START STAKING
+            <Image src={IconAssets.arrowRight} />
+          </HeaderButton>
+        </Grid>
+      </Link>
+      <Link href="https://docs.casperarmy.org/docs/validator/7.3-Benefits-of-staking">
+        <Grid>
+          <HeaderButton singleItem ghost>
+            BENEFITS
+          </HeaderButton>
+        </Grid>
+      </Link>
+    </Grid>
+  );
+};
+
+export const CreatorHeadingAddon = () => (
+  <Grid
+    templateColumns={{ base: "auto", md: "1fr 1fr" }}
+    templateRows={{ base: "1fr 1fr", md: "auto" }}
+    gridGap={{ base: "8px", md: "22px" }}
+    w={{ base: "80vw", md: "auto" }}
+  >
+    <Link href="/tickets">
+      <Grid>
+        <HeaderButton>
+          Buy a Call-Up Ticket
+          <Image src={IconAssets.arrowRight} />
+        </HeaderButton>
+      </Grid>
+    </Link>
+    <Link href="https://docs.casperarmy.org/docs/MEMBERSHIP/4.1-For-creators">
+      <Grid>
+        <HeaderButton singleItem ghost>
+          How to become a creator
+        </HeaderButton>
+      </Grid>
+    </Link>
   </Grid>
 );

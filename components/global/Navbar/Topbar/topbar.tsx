@@ -20,6 +20,7 @@ export const Topbar = () => {
           <Link href="https://docs.casperarmy.org/docs/validator/7.1-Validator-features#eco-friendly">
             <Image
               display={{ base: "none", xl: "flex" }}
+              cursor="pointer"
               mb="9px"
               src={BrandAssets.ecologyLabel}
             />
