@@ -3,19 +3,16 @@ import { Flex, Box } from "@chakra-ui/layout";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
-import Link from "next/link";
 import { Image } from "@chakra-ui/image";
 import { Partners } from "../components/pages/index/Partners/partners";
 import { Countdown } from "../components/pages/index/Countdown/countdown";
-import { EffectAssets, ElementAssets, IconAssets } from "../config";
-import { BackgroundDark } from "../components/shared/containers/backgroundDark";
+import { EffectAssets, ElementAssets } from "../config";
 import { NFT } from "../components/shared/NFT/nft";
 import { Features } from "../components/pages/index/Features/features";
 import { Footer } from "../components/global/Footer/footer";
 import { Steps } from "../components/shared/Steps/steps";
 import { PageHeader } from "../components/shared/PageHeader";
-import { Grid } from "@chakra-ui/react";
-import { HeaderButton } from "../components/shared/Header/headerButton";
+
 import {
   IndexHeading,
   IndexHeadingAddon,
@@ -93,7 +90,7 @@ const Home: NextPage = () => {
               index: 3,
               label: "USER RATING BY AI",
               buttonText: "SOON",
-              image: ElementAssets.points,
+              image: ElementAssets.launchAppHomepage,
               soon: true,
               reversed: false,
             },

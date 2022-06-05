@@ -12,7 +12,7 @@ export const Countdown = () => {
         display={{ base: "flex", md: "none" }}
         justify="center"
         padding="60px 0px"
-        
+
       >
         <Image src={ElementAssets.web3SpinnerTransparent}></Image>
       </Flex>
@@ -26,9 +26,9 @@ export const Countdown = () => {
         <Image
           pos="absolute"
           src={ElementAssets.ticketBackground}
-          bottom={{base: "-20%", md:"-10%"}}
+          bottom={{ base: "-20%", md: "-10%" }}
           zIndex={{ base: "1", md: "0" }}
-          left={{base: "-50%", md:"-5%"}}
+          left={{ base: "-50%", md: "-5%" }}
         />
         <Image
           pos="absolute"

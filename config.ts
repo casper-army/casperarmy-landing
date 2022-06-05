@@ -45,7 +45,8 @@ export const ElementAssets = {
   ticketFront: elementAssetsUrl("ticket-front.png"),
   dot: elementAssetsUrl("dot.png"),
   validatorMenu: elementAssetsUrl("validator-menu.png"),
-  ecofriendlyBig: elementAssetsUrl("ecofriendly-big.png")
+  ecofriendlyBig: elementAssetsUrl("ecofriendly-big.png"),
+  launchAppHomepage: elementAssetsUrl("launchapp-homepage.png"),
 } as const;
 
 export const PartnerAssets = {

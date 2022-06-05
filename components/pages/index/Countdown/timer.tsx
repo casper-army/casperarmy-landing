@@ -46,6 +46,7 @@ export const Timer = () => {
         fontWeight="200"
         gridGap={{ base: "0px", md: "0px", lg: "25px" }}
         textShadow="0px 3px 3px rgba(0, 0, 0, 0.25);"
+
       >
         <Box display={{ base: "none", md: "block" }}>
           <TimerBlock value={date[0]} label="days" />
