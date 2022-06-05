@@ -60,7 +60,7 @@ export const Benefits = () => {
             align="flex-start"
           >
             <Image w="80%" src={ElementAssets.ticketFront} />
-          </Flex>w
+          </Flex>
           <Flex flexDir="column" gridGap="50px">
             {benefitList.map((benefit, index) => {
               return (

@@ -1,10 +1,8 @@
 import React from "react";
 import { Flex, Box } from "@chakra-ui/layout";
 import { PartnerAssets, PartnerUrls } from "../../../../config";
-import { Text } from "@chakra-ui/layout";
 import Link from "next/link";
 import { Image } from "@chakra-ui/image";
-import Ticker from "react-ticker";
 
 const partnersList = [
   {

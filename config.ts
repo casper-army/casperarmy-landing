@@ -78,7 +78,7 @@ export const PartnerUrls = {
   awesomecasper: "https://casper.network/en/network",
   csprPl: "https://cspr.pl/",
   casperDash: "https://casperdash.io/",
-  casperblockchain: "https://www.friendly.market/",
+  casperblockchain: "",
   tubbly: ""
 } as const;
 
