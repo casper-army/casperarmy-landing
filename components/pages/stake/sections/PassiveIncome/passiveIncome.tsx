@@ -1,0 +1,60 @@
+import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
+import { ElementAssets, IconAssets } from "../../../../../config";
+import { HeaderButton } from "../../../../shared/Header/headerButton";
+import { CustomHeader } from "../../../../shared/typography/CustomHeader";
+import { Paragraph } from "../../../../shared/typography/Paragraph";
+import { GlassIcon } from "../../TopIcons/glassIcon";
+
+export const PassiveIncome = () => {
+  return (
+    <Grid gridGap={{ base: "16px", md: "24px" }}>
+      <CustomHeader>
+        Your funds are working around the clock, earn a passive income.
+      </CustomHeader>
+      <Paragraph>
+        The validator has been established to support the decentralisation of
+        the Casper Network on which the CasperArmy project is based. Delegators
+        participate in securing the network, receiving rewards from staking,
+        extra benefits on our platform and support development of CasperArmy.
+      </Paragraph>
+      <Grid
+        templateColumns={{ base: "1fr", md: "1fr auto" }}
+        gap={{ base: "50px", md: "100px" }}
+        m="30px 0px"
+      >
+        <Flex flexDir="column" gap={{ base: "16px", md: "38px" }}>
+          <Paragraph>
+            <Text fontWeight="bold" color="white">
+              By staking together with CasperArmy you:
+            </Text>
+          </Paragraph>
+          <Paragraph>
+            1. Receive points to get better conditions for purchasing new
+            CasperArmy products, such as CasperArmyNFT
+          </Paragraph>
+          <Paragraph>
+            2. Gain a voice in the DAO on the direction of development of the
+            CasperArmy platform and the projects incubated on it
+          </Paragraph>
+          <Paragraph>
+            3. Opportunities to invest in projects development by third-party
+            creators that have been previously vetted and voted on by the DAO -
+            within Venture Capital
+          </Paragraph>
+          <Flex justifyContent={{base: "", md: "flex-start"}}>
+            <HeaderButton>Learn more (DOCS)</HeaderButton>
+          </Flex>
+        </Flex>
+        <Flex justifyContent="center" align="center">
+          <Image maxW="60vw" src={ElementAssets.validator} />
+        </Flex>
+      </Grid>
+      <GlassIcon
+        icon={<Image src={IconAssets.alert} />}
+        heading="The staked coins are never physically transferred to the validator"
+        content={"Control of the coins always belongs to the delegator."}
+        alternative
+      />
+    </Grid>
+  );
+};

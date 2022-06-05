@@ -1,0 +1,66 @@
+import { Flex, Grid } from "@chakra-ui/react";
+import { HeaderButton } from "../../../../shared/Header/headerButton";
+import { CustomHeader } from "../../../../shared/typography/CustomHeader";
+import { Paragraph } from "../../../../shared/typography/Paragraph";
+import { RequirementItem } from "./requirementItem";
+
+export const Requirements = () => {
+  return (
+    <Grid gap="24px">
+      <CustomHeader smaller>Benefit Requirements</CustomHeader>
+      <Paragraph>
+        Each delegator will receive points based on the number of CSPR staked on
+        our node. However, users will have to meet the following conditions
+        beforehand:
+      </Paragraph>
+      <Flex flexDir="column" gridGap={{base: "16px", md:"39px"}} m={{base: "6px 0px", md: "36px 0px"}}>
+        <RequirementItem
+          content=" Join at least one CasperArmy social media channel: Telegram or Discord"
+          index={1}
+        />
+        <RequirementItem
+          content="Delegate a minimum of 5000 CSPR on the CasperArmy validator - Stake now"
+          index={2}
+        />
+        <RequirementItem
+          content="Establish a user account on Casperarmy.org"
+          index={3}
+        />
+        <RequirementItem content="Call-up Ticket purchase" index={4} />
+      </Flex>
+      <Paragraph>
+        The above conditions will allow you to receive additional benefits from
+        staking your CSPR coins on the CasperArmy staking node. If your CSPR
+        coins are delegated, but you do not fulfil the above conditions, you
+        will only enjoy the rewards of staking, as we cannot allocate staking
+        points without a CasperArmy.org user account set-up and without ticket
+        purchase.
+      </Paragraph>
+      <Paragraph>
+        You can view the points you have accumulated for your engagement on our
+        social channels (Discord or Telegram) on the platform in your "user
+        account".
+      </Paragraph>
+      <Paragraph>
+        Amount of points will reflect how many tokens can be purchased by users
+        of projects incubated on CasperArmy.
+      </Paragraph>
+      <Paragraph>
+        Points accumulated will increase your chances of winning an “Call-up
+        ticket” airdrop and winning a CasperArmyNFT airdrop. If you’re
+        unsuccessful in winning the CasperArmyNFT airdrop, those with the most
+        points will qualify to buy an NFT through the BUY NOW auction. The
+        remaining eligible users will enter the NFT sale round via limited time
+        bidding. Ticket airdrop winners will be announced prior to the start of
+        ticket sales.
+      </Paragraph>
+      <Paragraph>
+        Our validator node is open to the whole Casper Community. We charge a 4%
+        fee.
+      </Paragraph>
+      <Flex justifyContent="flex-start">
+        <HeaderButton>LEARN MORE ABOUT THE POINT SYSTEM</HeaderButton>
+      </Flex>
+    </Grid>
+  );
+};
