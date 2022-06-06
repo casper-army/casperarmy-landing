@@ -46,7 +46,7 @@ export const Benefits = () => {
         <SectionHeading
           centered
           content={"Benefits of owning a ticket"}
-          label="Why is it worth it?"
+          label="why it’s worth it?"
         />
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 1fr" }}
