@@ -23,9 +23,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: action-yarn
+      - name: Yarn CLI
   # You may pin to the exact commit or the version.
-  # uses: comchangs/action-yarn@e4a1f4800849aa2e73dbc77d872a3c011cdc28d5
-        uses: comchangs/action-yarn@v0.1-beta    
+  # uses: CultureHQ/actions-yarn@661c6f3a66041c2432bcfb78096b9207304614c8
+        uses: CultureHQ/actions-yarn@v1.0.1
       - run: yarn install
       - run: yarn dev -p 3001
