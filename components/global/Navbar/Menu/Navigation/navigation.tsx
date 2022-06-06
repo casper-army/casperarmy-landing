@@ -27,11 +27,11 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
         },
       }}
     >
-      <NavItem url="/">For investor</NavItem>
-      <NavItem url="/creator">For creator</NavItem>
+      <NavItem url="/">Investor</NavItem>
+      <NavItem url="/creator">Creator</NavItem>
       <NavItem url="/tickets">Call-up ticket</NavItem>
       <NavItem url="/stake">Stake</NavItem>
-      <NavItem url="https://casperarmy.io/">NFT</NavItem>
+      <NavItem url="https://casperarmy.io/">Army NFT</NavItem>
     </Flex>
   );
 };
