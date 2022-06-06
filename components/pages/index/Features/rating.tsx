@@ -65,12 +65,10 @@ export const Rating = () => {
           fontFamily="Sora, sans-serif"
         >
           The entire CasperArmy platform ecosystem is based on a point system.
-          CasperArmy investors are scored based on their engagement in the
-          CasperArmy community and the broader CasperArmy ecosystem. This
-          ensures that those who dedicate time, effort and capital to
-          participate in the CasperArmy community, DAO, VC and staking are
-          fairly rewarded. Soldier Rating calculates the quality of each
-          investor through ongoing analysis of their investment participation.
+          CasperArmy investors are scored based on their engagement in the CasperArmy community
+          and the broader CasperArmy ecosystem. This ensures that those who dedicate time,
+          effort and capital to participate in the CasperArmy community, DAO, VC and staking are fairly rewarded.
+          Soldier Rating calculates the quality of each investor through ongoing analysis of their investment participation.
         </Text>
       </Flex>
     </Grid>
