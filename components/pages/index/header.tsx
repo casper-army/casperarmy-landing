@@ -39,7 +39,7 @@ export const IndexHeadingAddon = () => (
     <Link href="https://docs.casperarmy.org/docs/MEMBERSHIP/4.2-For-investors">
       <Grid>
         <HeaderButton singleItem ghost>
-          How to become member
+          Become a member
         </HeaderButton>
       </Grid>
     </Link>
@@ -91,7 +91,7 @@ export const CreatorHeadingAddon = () => (
     <Link href="https://docs.casperarmy.org/docs/MEMBERSHIP/4.1-For-creators">
       <Grid>
         <HeaderButton singleItem ghost>
-          How to become a creator
+          Become a creator
         </HeaderButton>
       </Grid>
     </Link>
