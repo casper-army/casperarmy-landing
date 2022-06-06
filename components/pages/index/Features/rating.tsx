@@ -1,6 +1,7 @@
 import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { EffectAssets } from "../../../../config";
+import { CustomLink } from "../../../shared/typography/CustomLink";
 import { SectionHeader } from "../../../texts/sectionHeader";
 
 export const Rating = () => {
@@ -58,7 +59,7 @@ export const Rating = () => {
       </SectionHeader>
       <Flex flexDir="column" gap="16px">
         <Box bg="#FF0202" h="5px" w="46px"></Box>
-        <Text
+        <Box
           color="#888888"
           fontSize="14px"
           lineHeight="180%"
@@ -70,8 +71,9 @@ export const Rating = () => {
           ensures that those who dedicate time, effort and capital to
           participate in the CasperArmy community, DAO, VC and staking are
           fairly rewarded. Soldier Rating calculates the quality of each
-          investor through ongoing analysis of their investment participation.
-        </Text>
+          investor through ongoing analysis of their investment participation.{" "}
+          <CustomLink href="https://docs.casperarmy.org/docs/point-system/3.1-Description">Read more.</CustomLink> 
+        </Box>
       </Flex>
     </Grid>
   );

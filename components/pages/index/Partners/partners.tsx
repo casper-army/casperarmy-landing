@@ -35,6 +35,7 @@ const partnersList = [
 
 export const Partners = () => {
   return (
+    
     <Flex
       gridGap={{ base: "40px", md: "96px" }}
       align="center"

@@ -25,7 +25,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"INCUBATION HUB"}
           heading={"Collaboration and entrepreneurship hub"}
-          href="/3"
+          href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.4%20Incubation%20HUB"
           bigImage
           image={BrandAssets.computer}
         />
@@ -34,7 +34,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"WEB 3 DAO"}
           heading={"Decentralized Autonomous Organization"}
-          href="/3"
+          href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.2%20DAO"
           image={BrandAssets.circle}
         />
       </GridItem>
@@ -42,7 +42,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"VENTURE CAPITAL"}
           heading={"Early stage investments"}
-          href="/3"
+          href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.3%20Venture%20Capital"
           image={BrandAssets.chart}
         />
       </GridItem>
@@ -52,7 +52,7 @@ export const FeatureBlocks = () => {
           heading={
             "Gateway to participate in the buying and selling of digital assetes"
           }
-          href="/3"
+          href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.6-Open-NFT-Marketplace"
           image={BrandAssets.world}
         />
       </GridItem>

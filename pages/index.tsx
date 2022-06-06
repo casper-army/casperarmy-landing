@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                 "Stake your CSPR on CasperArmy's validator to unlock all the platform's tools while increasing your points in the rating system",
               heading: "Stake CSPR",
               index: 2,
-              label: "USER ACCESS BY CALL-UP TICKET",
+              label: "INVESTOR VERIFICATION BY STAKING",
               buttonText: "SEE OUR EKO VALIDATOR",
               image: ElementAssets.validator,
               soon: false,
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             },
             {
               content:
-                "CasperArmy community member evaluation system is based on the analysis of many factors, which include, among others, activity and commitment. Artificial intelligence algorithms will objectively evaluate the user's participation in the CasperArmy.",
+                "CasperArmy community member evaluation system is based on the analysis of many factors, which include, among others, activity and commitment. Artificial intelligence algorithms will objectively evaluate the user's participation in the CasperArmy",
               heading: "Launch App",
               index: 3,
               label: "USER RATING BY AI",
