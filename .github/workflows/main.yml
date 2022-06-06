@@ -1,7 +1,7 @@
 name: Node.js CI
 
 on:
-  runner-demo:
+  release:
     runs-on: [self-hosted]
   push:
     branches: [ main ]
