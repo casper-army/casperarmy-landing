@@ -31,7 +31,7 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
       <NavItem url="/creator">For creator</NavItem>
       <NavItem url="/tickets">Call-up ticket</NavItem>
       <NavItem url="/stake">Stake</NavItem>
-      <NavItem url="/nft">NFT</NavItem>
+      <NavItem url="https://casperarmy.io/">NFT</NavItem>
     </Flex>
   );
 };
