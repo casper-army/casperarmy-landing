@@ -76,16 +76,16 @@ export const SocialAssets = {
 } as const;
 
 export const PartnerUrls = {
-  awesomecasper: "https://casper.network/en/network",
+  awesomecasper: "https://awesomecasper.com/",
   csprPl: "https://cspr.pl/",
   casperDash: "https://casperdash.io/",
-  casperblockchain: "",
+  casperblockchain: "https://casperblockchain.io",
   tubbly: ""
 } as const;
 
 export const SocialMediaUrls = {
   twitter: "https://twitter.com/casperarmyorg",
-  medium: "https://www.linkedin.com/",
+  medium: "https://medium.com/@CasperArmy",
   telegram: "https://t.me/casperarmyofficial",
-  discord: "https://www.instagram.com",
+  discord: "https://discord.gg/sZQVdRCyqx",
 } as const;
