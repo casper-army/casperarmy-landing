@@ -14,6 +14,7 @@ import {
   IndexHeadingAddon,
 } from "../components/pages/index/header";
 import { Features } from "../components/pages/index/Features/features";
+import { CreatorFeatures } from "../components/pages/index/Features/creatorFeatures";
 
 const Home: NextPage = () => {
   return (
@@ -54,7 +55,7 @@ const Home: NextPage = () => {
           />
         </Box>
       </CenterContainer>
-      <Features />
+      <CreatorFeatures />
       <CenterContainer>
         <Steps
           stepList={[
@@ -64,10 +65,11 @@ const Home: NextPage = () => {
               heading: "Buy NFT Ticket",
               index: 1,
               label: "USER ACCESS BY CALL-UP TICKET",
-              buttonText: "PURCHASE NOW",
+              buttonText: "Purchase now",
               image: ElementAssets.tickets,
               soon: false,
               reversed: false,
+              href: ""
             },
             {
               content:
@@ -79,6 +81,7 @@ const Home: NextPage = () => {
               image: ElementAssets.validator,
               soon: true,
               reversed: true,
+              href: ""
             },
             {
               content:
@@ -90,6 +93,7 @@ const Home: NextPage = () => {
               image: ElementAssets.points,
               soon: true,
               reversed: false,
+              href: ""
             },
           ]}
         />

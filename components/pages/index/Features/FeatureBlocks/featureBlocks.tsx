@@ -14,7 +14,7 @@ export const FeatureBlocks = () => {
   return (
     <Grid
       minH="800px"
-      maxH={{base: "auto", md: "800px"}}
+      maxH={{ base: "auto", md: "800px" }}
       mt="20px"
       gridTemplateAreas={{ base: "'a' 'b' 'c' 'd'", xl: "'a b c' 'a d d'" }}
       gridTemplateColumns={{ base: "1fr", xl: "1.5fr 1fr 1fr" }}
@@ -25,7 +25,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"INCUBATION HUB"}
           heading={"Collaboration and entrepreneurship hub"}
-          text="Decentralized Autonomous Organization represented by rules encoded as a computer program maintained on a blockchain that is transparent, controlled by the organization members and not influenced by a central government."
+          href="/3"
           bigImage
           image={BrandAssets.computer}
         />
@@ -34,7 +34,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"WEB 3 DAO"}
           heading={"Decentralized Autonomous Organization"}
-          text="Decentralized Autonomous Organization represented by rules encoded as a computer program maintained on a blockchain that is transparent, controlled by the organization members and not influenced by a central government."
+          href="/3"
           image={BrandAssets.circle}
         />
       </GridItem>
@@ -42,7 +42,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"VENTURE CAPITAL"}
           heading={"Early stage investments"}
-          text="Decentralized Autonomous Organization represented by rules encoded as a computer program maintained on a blockchain that is transparent, controlled by the organization members and not influenced by a central government."
+          href="/3"
           image={BrandAssets.chart}
         />
       </GridItem>
@@ -52,7 +52,7 @@ export const FeatureBlocks = () => {
           heading={
             "Gateway to participate in the buying and selling of digital assetes"
           }
-          text="Decentralized Autonomous Organization represented by rules encoded as a computer program maintained on a blockchain that is transparent, controlled by the organization members and not influenced by a central government."
+          href="/3"
           image={BrandAssets.world}
         />
       </GridItem>

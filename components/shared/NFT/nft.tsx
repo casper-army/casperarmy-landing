@@ -8,7 +8,7 @@ import { SectionHeader } from "../../texts/sectionHeader";
 import { SectionText } from "../../texts/sectionText";
 import { HeaderButton } from "../Header/headerButton";
 import { keyframes } from "@emotion/react";
-import { usePrefersReducedMotion } from "@chakra-ui/react";
+import { Link, usePrefersReducedMotion } from "@chakra-ui/react";
 
 const spin = keyframes`
   0%  { transform: rotate(-5deg); }
@@ -82,11 +82,12 @@ export const NFT = () => {
             animation={animationCards}
           />
         </Flex>
-
-        <HeaderButton>
-          GO TO CASPERARMY NFT SITE &nbsp;
-          <Image src={IconAssets.arrowRight} />
-        </HeaderButton>
+        <Link zIndex="2000" href="https://casperarmy.io/">
+          <HeaderButton>
+            GO TO CASPERARMY NFT SITE &nbsp;
+            <Image src={IconAssets.arrowRight} />
+          </HeaderButton>
+        </Link>
       </Grid>
     </BackgroundDark>
   );

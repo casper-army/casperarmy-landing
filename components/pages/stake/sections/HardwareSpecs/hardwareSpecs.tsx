@@ -1,6 +1,7 @@
 import { Box, Flex, Grid, Text } from "@chakra-ui/react";
 import React from "react";
 import { CustomHeader } from "../../../../shared/typography/CustomHeader";
+import { CustomLink } from "../../../../shared/typography/CustomLink";
 import { Paragraph } from "../../../../shared/typography/Paragraph";
 
 const specList = [
@@ -30,7 +31,6 @@ export const HardwareSpecs = () => {
   return (
     <Grid gridGap="24px">
       <CustomHeader smaller>Server Details</CustomHeader>
-
       <Paragraph>
         The validator server CasperArmy is hosted on a dedicated machine.
       </Paragraph>
@@ -47,8 +47,13 @@ export const HardwareSpecs = () => {
         </Flex>
       </Grid>
       <Paragraph>
-        You can also find all current information directly on our validator
-        page.
+        You can also find all current information directly on our{" "}
+        <CustomLink
+          colored
+          href="https://docs.casperarmy.org/docs/validator/7.1-Validator-features"
+        >
+          validator page.
+        </CustomLink>
       </Paragraph>
     </Grid>
   );

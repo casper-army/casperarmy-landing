@@ -16,7 +16,6 @@ export const HeaderButton: FC<IHeaderButton> = ({
   href = "/",
 }) => {
   return (
-
     <Flex
       borderRadius="3px"
       textTransform="uppercase"
@@ -34,7 +33,9 @@ export const HeaderButton: FC<IHeaderButton> = ({
       cursor="pointer"
       _hover={{
         backgroundColor: "#FF0202",
+        textDecoration: 'none'
       }}
+      textDecoration="none"
     >
       {children}
     </Flex>

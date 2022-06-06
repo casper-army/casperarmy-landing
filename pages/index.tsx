@@ -71,6 +71,7 @@ const Home: NextPage = () => {
               image: ElementAssets.tickets,
               soon: false,
               reversed: false,
+              href: "",
             },
             {
               content:
@@ -82,6 +83,7 @@ const Home: NextPage = () => {
               image: ElementAssets.validator,
               soon: false,
               reversed: true,
+              href: "https://cspr.live/validator/020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed",
             },
             {
               content:
@@ -93,6 +95,7 @@ const Home: NextPage = () => {
               image: ElementAssets.launchAppHomepage,
               soon: true,
               reversed: false,
+              href: "",
             },
           ]}
         />

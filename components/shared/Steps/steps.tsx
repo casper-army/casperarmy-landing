@@ -14,6 +14,7 @@ export interface StepItem {
   image: string;
   soon: boolean;
   reversed: boolean;
+  href: string
 }
 
 interface ISteps {
@@ -69,6 +70,7 @@ export const Steps: FC<ISteps> = ({ stepList }) => {
                 reversed={step.reversed}
                 soon={step.soon}
                 key={step.index}
+                href={step.href}
               />
             );
           })}

@@ -5,6 +5,7 @@ import { CenterContainer } from "../../shared/containers/centerContainer";
 import { Socials } from "../Navbar/Topbar/socials";
 import { SmallHeader } from "../../texts/smallHeader";
 import { ChatButton } from "./chatButton";
+import { CustomLink } from "../../shared/typography/CustomLink";
 
 export const Footer = () => {
   return (
@@ -44,17 +45,51 @@ export const Footer = () => {
               Sign up and stay up to date on Incubated projects, DAO, VC
               investments and news
             </Text>
+            <Text
+              padding="20px 0px"
+              fontWeight="bold"
+              color="gray"
+              borderRadius="4px"
+              textTransform="uppercase"
+            >
+              Form in maintenance
+            </Text>
           </Flex>
           <Flex flexDir="column" gridGap="10px" alignItems="inherit">
             <SmallHeader>Support</SmallHeader>
-            <Text>FAQ</Text>
-            <Text>Documentation</Text>
-            <Text>GitHub</Text>
+            <CustomLink
+              withoutUnderline
+              href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.11-FAQ"
+            >
+              FAQ
+            </CustomLink>
+            <CustomLink withoutUnderline href="https://docs.casperarmy.org">
+              Documentation
+            </CustomLink>
+            <CustomLink withoutUnderline href="https://github.com/casper-army">
+              GitHub
+            </CustomLink>
           </Flex>
           <Flex flexDir="column" gridGap="10px" alignItems="inherit">
             <SmallHeader>Headquarters</SmallHeader>
-            <Text>About casperarmy</Text>
-            <Text>CasperArmy Team</Text>
+            <CustomLink
+              withoutUnderline
+              href="https://docs.casperarmy.org/docs/what-is-casperarmy/1.1-Description"
+            >
+              About casperarmy
+            </CustomLink>
+            <CustomLink
+              withoutUnderline
+              href="https://docs.casperarmy.org/docs/what-is-casperarmy/1.4-team"
+            >
+              CasperArmy Team
+            </CustomLink>
+            <CustomLink
+              withoutUnderline
+              href="https://docs.casperarmy.org/docs/what-is-casperarmy/1.5-partners"
+            >
+              Partners
+            </CustomLink>
           </Flex>
           <Flex
             flexDir="column"

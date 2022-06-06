@@ -6,6 +6,7 @@ import { SectionHeader } from "../../../texts/sectionHeader";
 export const Rating = () => {
   return (
     <Grid
+      zIndex="1000"
       background="rgba(255, 255, 255, 0.01)"
       boxShadow="inset 0px 0px 12.3205px rgba(255, 255, 255, 0.05), inset 0px 0.724735px 0.724735px rgba(255, 255, 255, 0.15)"
       backdropFilter="blur(23px)"
@@ -13,11 +14,11 @@ export const Rating = () => {
       textAlign="left"
       padding={{ base: "30px", md: "70px" }}
       alignItems="flex-start"
+      transform="none"
       gap="30px"
       justifyContent="flex-start"
       templateColumns={{ base: "1fr", md: "250px 1fr" }}
       templateRows={{ base: "auto auto", md: "1fr" }}
-      zIndex="1"
       m="60px 0px 120px"
       position="relative"
     >
@@ -25,7 +26,7 @@ export const Rating = () => {
         src={EffectAssets.dot}
         w="180px"
         position="absolute"
-        zIndex="-1"
+        zIndex="-40"
         right="-90px"
         display={{ base: "none", md: "block" }}
         top="0"
@@ -34,12 +35,12 @@ export const Rating = () => {
       />
       <Image
         src={EffectAssets.dot}
-        w={{base: "80px", md:"50px"}}
+        w={{ base: "80px", md: "50px" }}
         position="absolute"
         zIndex="-4"
         right="15%"
         margin="auto"
-        top={{base: "-40px", md:"-25px"}}
+        top={{ base: "-40px", md: "-25px" }}
       />
       <Image
         src={EffectAssets.dot}

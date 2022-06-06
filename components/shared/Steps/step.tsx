@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Heading, Image, Link, Text } from "@chakra-ui/react";
 import { FC, useCallback } from "react";
 import { ElementAssets } from "../../../config";
 import { getParallaxValue, useParallax } from "../../../hooks/useParralax";
@@ -13,6 +13,7 @@ interface IStep {
   buttonText: string;
   soon?: boolean;
   image: string;
+  href?: string;
 }
 
 export const Step: FC<IStep> = ({
@@ -24,6 +25,7 @@ export const Step: FC<IStep> = ({
   label,
   buttonText,
   image,
+  href,
 }) => {
   const { ref, result } = useParallax({
     onScroll: useCallback((percentage) => {
@@ -71,30 +73,32 @@ export const Step: FC<IStep> = ({
           {heading}
         </Heading>
         <TextBasic>{content}</TextBasic>
-        <Flex
-          borderRadius="4px"
-          mt="40px"
-          minW="240px"
-          w={{ base: "100%", md: "auto" }}
-          fontWeight="bold"
-          fontSize="13px"
-          border="2px solid #FF0202"
-          padding={{ base: "18px", md: "24px" }}
-          justify="center"
-          cursor={soon ? "default" : "pointer"}
-          filter={soon ? "grayscale(1)" : ""}
-          _hover={{ backgroundColor: !soon ? "#FF0202" : "transparent" }}
-        >
-          {buttonText}
-        </Flex>
+        <Link  href={href}>
+          <Flex
+            borderRadius="4px"
+            mt="40px"
+            minW="240px"
+            w={{ base: "100%", md: "auto" }}
+            fontWeight="bold"
+            fontSize="13px"
+            border="2px solid #FF0202"
+            padding={{ base: "18px", md: "24px" }}
+            justify="center"
+            cursor={soon ? "default" : "pointer"}
+            filter={soon ? "grayscale(1)" : ""}
+            _hover={{ backgroundColor: !soon ? "#FF0202" : "transparent" }}
+          >
+            {buttonText}
+          </Flex>
+        </Link>
       </Flex>
       <Flex
         gridArea="a"
         justifyContent={reversed ? "flex-start" : "flex-end"}
         align="center"
-        transform={`translateX(${result && (
-          reversed ? -result?.moveValue : result?.moveValue
-          )}px)`}
+        transform={`translateX(${
+          result && (reversed ? -result?.moveValue : result?.moveValue)
+        }px)`}
         opacity={result && result.opacityValue}
       >
         <Image src={image} />

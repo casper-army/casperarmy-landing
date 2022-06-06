@@ -2,6 +2,7 @@ import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import { ElementAssets, IconAssets } from "../../../../../config";
 import { HeaderButton } from "../../../../shared/Header/headerButton";
 import { CustomHeader } from "../../../../shared/typography/CustomHeader";
+import { CustomLink } from "../../../../shared/typography/CustomLink";
 import { Paragraph } from "../../../../shared/typography/Paragraph";
 import { GlassIcon } from "../../TopIcons/glassIcon";
 
@@ -15,7 +16,11 @@ export const StartStaking = () => {
         tutorial on how to set up a Casper Signer wallet to delegate your cspr
         or tutorial that explains how to start delegating with Ledger.
       </Paragraph>
-      <Grid templateColumns={{base: "1fr", md: "1fr auto"}} gap={{base: "50px", md : "100px"}} m="30px 0px">
+      <Grid
+        templateColumns={{ base: "1fr", md: "1fr auto" }}
+        gap={{ base: "50px", md: "100px" }}
+        m="30px 0px"
+      >
         <Flex flexDir="column" gap="38px">
           <CustomHeader smaller>CasperArmy is eco-friendly</CustomHeader>
           <Paragraph>
@@ -23,9 +28,11 @@ export const StartStaking = () => {
             development of blockchain technology and our business to not
             contribute to the degradation of the natural environment in which we
             live and will live for generations to come. The choice of the Casper
-            Network was obvious, Casper Network is one of the most
-            energy-efficient blockchains and continues to improve its technology
-            in this regard.
+            Network was obvious, Casper Network is one of the most{" "}
+            <Text display="inline" color="white" textDecoration="underline">
+              energy-efficient blockchains
+            </Text>{" "}
+            and continues to improve its technology in this regard.
           </Paragraph>
           <Paragraph>
             We strive to minimise our carbon footprint. Therefore, during the
@@ -37,12 +44,19 @@ export const StartStaking = () => {
           <Image maxW="60vw" src={ElementAssets.ecofriendlyBig} />
         </Flex>
       </Grid>
+
       <Box pr={{ base: "initial", md: "200px" }}>
         <Paragraph>
-          The CasperArmy validator is hosted by www.hetzner.com. Hetzner uses
-          green energy-efficient servers powered by electricity obtained from
-          100% renewable energy sources. You can read more about this here
-          
+          The CasperArmy validator is hosted by{" "}
+          <CustomLink href="https://www.hetzner.com">
+            www.hetzner.com.
+          </CustomLink>{" "}
+          Hetzner uses green energy-efficient servers powered by electricity
+          obtained from 100% renewable energy sources. You can read more about
+          this{" "}
+          <CustomLink href="https://www.hetzner.com/unternehmen/umweltschutz/">
+            here
+          </CustomLink>
         </Paragraph>
       </Box>
 

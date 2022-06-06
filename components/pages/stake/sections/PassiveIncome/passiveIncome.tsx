@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image, Link, Text } from "@chakra-ui/react";
 import { ElementAssets, IconAssets } from "../../../../../config";
 import { HeaderButton } from "../../../../shared/Header/headerButton";
 import { CustomHeader } from "../../../../shared/typography/CustomHeader";
@@ -39,11 +39,16 @@ export const PassiveIncome = () => {
           <Paragraph>
             3. Opportunities to invest in projects development by third-party
             creators that have been previously vetted and voted on by the DAO -
-            within Venture Capital
+            within{" "}
+            <Text display="inline" color="white">
+              Venture Capital
+            </Text>
           </Paragraph>
-          <Flex justifyContent={{base: "", md: "flex-start"}}>
-            <HeaderButton>Learn more (DOCS)</HeaderButton>
-          </Flex>
+          <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.3%20Venture%20Capital">
+            <Flex justifyContent={{ base: "", md: "flex-start" }}>
+              <HeaderButton>Learn more (DOCS)</HeaderButton>
+            </Flex>
+          </Link>
         </Flex>
         <Flex justifyContent="center" align="center">
           <Image maxW="60vw" src={ElementAssets.validator} />
