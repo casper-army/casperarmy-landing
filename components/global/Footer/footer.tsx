@@ -118,8 +118,18 @@ export const Footer = () => {
             mt={{ base: "16px", md: "initial" }}
           >
             <Flex fontSize="16px" fontWeight="500" gridGap="40px">
-              <Box>Privacy Policy</Box>
-              <Box>Terms of Use</Box>
+              <CustomLink
+                withoutUnderline
+                href="https://docs.casperarmy.org/docs/what-is-casperarmy/1.6-Privacy-policy"
+              >
+                Privacy Policy
+              </CustomLink>
+              <CustomLink
+                withoutUnderline
+                href="https://docs.casperarmy.org/docs/what-is-casperarmy/1.7-Terms-of-use"
+              >
+                Terms of Use
+              </CustomLink>
             </Flex>
             <Socials />
           </Flex>

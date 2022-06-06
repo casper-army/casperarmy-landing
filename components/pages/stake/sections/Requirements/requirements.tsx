@@ -1,4 +1,4 @@
-import { Flex, Grid } from "@chakra-ui/react";
+import { Flex, Grid, Link } from "@chakra-ui/react";
 import { HeaderButton } from "../../../../shared/Header/headerButton";
 import { CustomHeader } from "../../../../shared/typography/CustomHeader";
 import { CustomLink } from "../../../../shared/typography/CustomLink";
@@ -66,9 +66,14 @@ export const Requirements = () => {
         Our validator node is open to the whole Casper Community. We charge a 4%
         fee.
       </Paragraph>
-      <Flex justifyContent="flex-start">
-        <HeaderButton>LEARN MORE ABOUT THE POINT SYSTEM</HeaderButton>
-      </Flex>
+      <Link
+        href="https://docs.casperarmy.org/docs/point-system/3.2-Soldier-Rating"
+        display="grid"
+      >
+        <Flex justifyContent="flex-start">
+          <HeaderButton>LEARN MORE ABOUT THE POINT SYSTEM</HeaderButton>
+        </Flex>
+      </Link>
     </Grid>
   );
 };

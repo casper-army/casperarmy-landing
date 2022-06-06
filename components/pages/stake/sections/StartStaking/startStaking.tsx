@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image, Link, Text } from "@chakra-ui/react";
 import { ElementAssets, IconAssets } from "../../../../../config";
 import { HeaderButton } from "../../../../shared/Header/headerButton";
 import { CustomHeader } from "../../../../shared/typography/CustomHeader";
@@ -59,10 +59,14 @@ export const StartStaking = () => {
           </CustomLink>
         </Paragraph>
       </Box>
-
-      <Flex justifyContent="flex-start">
-        <HeaderButton>Stake with CasperArmy</HeaderButton>
-      </Flex>
+      <Link
+        href="https://cspr.live/validator/020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed"
+        display="grid"
+      >
+        <Flex justifyContent="flex-start">
+          <HeaderButton>Stake with CasperArmy</HeaderButton>
+        </Flex>
+      </Link>
     </Grid>
   );
 };

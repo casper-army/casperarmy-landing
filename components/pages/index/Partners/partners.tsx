@@ -5,11 +5,7 @@ import Link from "next/link";
 import { Image } from "@chakra-ui/image";
 
 const partnersList = [
-  {
-    key: "casper dash",
-    image: PartnerAssets.casperDash,
-    url: PartnerUrls.casperDash,
-  },
+
   {
     key: "cspr pl",
     image: PartnerAssets.csprPl,
