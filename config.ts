@@ -47,6 +47,8 @@ export const ElementAssets = {
   validatorMenu: elementAssetsUrl("validator-menu.png"),
   ecofriendlyBig: elementAssetsUrl("ecofriendly-big.png"),
   launchAppHomepage: elementAssetsUrl("launchapp-homepage.png"),
+  AmlKyc: elementAssetsUrl("amlkyc.png"),
+  incubationHub: elementAssetsUrl("incubation-hub.png"),
 } as const;
 
 export const PartnerAssets = {

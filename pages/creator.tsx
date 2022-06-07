@@ -78,7 +78,7 @@ const Home: NextPage = () => {
               index: 2,
               label: "CREATOR VERIFICATION",
               buttonText: "SOON",
-              image: ElementAssets.validator,
+              image: ElementAssets.AmlKyc,
               soon: true,
               reversed: true,
               href: ""
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
               index: 3,
               label: "CREATORS PLATFORM",
               buttonText: "SOON",
-              image: ElementAssets.points,
+              image: ElementAssets.incubationHub,
               soon: true,
               reversed: false,
               href: ""
