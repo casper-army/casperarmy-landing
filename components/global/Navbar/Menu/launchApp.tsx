@@ -19,7 +19,7 @@ export const LaunchApp = () => {
       cursor="pointer"
       _hover={{ backgroundColor: "white", color: "black" }}
     >
-      LAUNCH&nbsp;APP
+      CONNECT&nbsp;WALLET
       <Box
         display={{ base: "none", xl: "block" }}
         bg="#FF0202"
