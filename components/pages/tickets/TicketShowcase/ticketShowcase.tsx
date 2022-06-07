@@ -35,6 +35,7 @@ export const TicketShowcase = () => {
             pos="absolute"
             right="0px"
             top="20%"
+            display={{base: 'none', md: 'block'}}
             transform={`translateX(50%) rotate(${
               result && result.scrollValue
             }deg)`}

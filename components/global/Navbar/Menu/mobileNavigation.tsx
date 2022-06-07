@@ -1,4 +1,5 @@
-import { Box, Flex, Image, Modal, ModalContent } from "@chakra-ui/react";
+import { Box, Flex, Image, Link, Modal, ModalContent } from "@chakra-ui/react";
+
 import React, { FC } from "react";
 import { ElementAssets, IconAssets } from "../../../../config";
 import { LaunchApp } from "./launchApp";
@@ -34,7 +35,9 @@ export const MobileNavigation: FC<IMobileNavigation> = ({ onClose }) => {
       </Flex>
       <Navigation mobile />
       <LaunchApp />
-      <Image src={ElementAssets.validatorMenu} w="100%" />
+      <Link href="https://cspr.live/validator/020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed">
+        <Image src={ElementAssets.validatorMenu} w="100%" />
+      </Link>
     </ModalContent>
   );
 };

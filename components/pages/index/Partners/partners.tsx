@@ -38,6 +38,17 @@ export const Partners = () => {
       overflowX="scroll"
       padding="20px 0px"
       justify="center"
+      css={{
+        '&::-webkit-scrollbar': {
+          display: 'none',
+        },
+        '&::-webkit-scrollbar-track': {
+          display: 'none',
+        },
+        '&::-webkit-scrollbar-thumb': {
+          display: 'none'
+        },
+      }}
     >
       {partnersList.map((partner) => {
         return (
