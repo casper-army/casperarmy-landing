@@ -23,7 +23,7 @@ export const LaunchApp = () => {
       <Box
         display={{ base: "none", xl: "block" }}
         bg="#FF0202"
-        boxSize="12px"
+        boxSize="10px"
       ></Box>
     </Flex>
   );
