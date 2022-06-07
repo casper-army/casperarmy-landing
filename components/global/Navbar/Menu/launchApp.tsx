@@ -10,7 +10,7 @@ export const LaunchApp = () => {
       fontSize="16px"
       zIndex="1"
       fontWeight="bold"
-      padding="19px 28px"
+      padding="19px 24px"
       fontFamily="Changa"
       justifyContent={{ base: "center", md: "initial" }}
       letterSpacing="3px"
@@ -23,7 +23,7 @@ export const LaunchApp = () => {
       <Box
         display={{ base: "none", xl: "block" }}
         bg="#FF0202"
-        boxSize="10px"
+        boxSize="12px"
       ></Box>
     </Flex>
   );
