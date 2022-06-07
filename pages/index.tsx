@@ -79,7 +79,7 @@ const Home: NextPage = () => {
               heading: "Stake CSPR",
               index: 2,
               label: "INVESTOR VERIFICATION BY STAKING",
-              buttonText: "SEE OUR EKO VALIDATOR",
+              buttonText: "SEE OUR ECO VALIDATOR",
               image: ElementAssets.validator,
               soon: false,
               reversed: true,
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               image: ElementAssets.launchAppHomepage,
               soon: true,
               reversed: false,
-              href: "",
+              href: "https://testnet.casper.army",
             },
           ]}
         />
