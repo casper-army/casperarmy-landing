@@ -10,7 +10,7 @@ export const LaunchApp = () => {
       fontSize="16px"
       zIndex="1"
       fontWeight="bold"
-      padding="19px 20px"
+      padding="19px 28px"
       fontFamily="Changa"
       justifyContent={{ base: "center", md: "initial" }}
       letterSpacing="3px"
