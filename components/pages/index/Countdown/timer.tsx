@@ -14,7 +14,7 @@ const Separator = () => (
 );
 
 export const Timer = () => {
-  const date = useTimer(new Date("2022-06-21"));
+  const date = useTimer(new Date("2022-06-26"));
 
   return (
     <>
