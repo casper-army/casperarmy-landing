@@ -44,7 +44,7 @@ export const PassiveIncome = () => {
               Venture Capital
             </Text>
           </Paragraph>
-          <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.3%20Venture%20Capital">
+          <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.9-staking">
             <Flex justifyContent={{ base: "", md: "flex-start" }}>
               <HeaderButton>Learn more (DOCS)</HeaderButton>
             </Flex>
