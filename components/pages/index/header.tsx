@@ -31,7 +31,7 @@ export const IndexHeadingAddon = () => (
     <Link href="/tickets">
       <Grid>
         <HeaderButton>
-          Buy a Call-Up Ticket
+          Purchase a Call-Up Ticket
           <Image src={IconAssets.arrowRight} />
         </HeaderButton>
       </Grid>
