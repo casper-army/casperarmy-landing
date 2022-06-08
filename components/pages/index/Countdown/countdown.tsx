@@ -112,7 +112,7 @@ export const Countdown = () => {
               padding="0px 30px"
               maxW="600px"
             >
-              NFT CALL-UP TICKET SALES WILL BEGIN AT:
+              NFT CALL-UP TICKET SALES WILL BEGIN:
             </Heading>
             <Timer />
             <CountdownButtons />
