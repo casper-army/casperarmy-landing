@@ -78,7 +78,7 @@ const Tickets: NextPage = () => {
           {
             question: "What are points and how do they relate to tickets?",
             answer:
-              "Points are an indicator of your commitment to the CasperArmy community. You can earn points in many different areas, one of which is having a ticket to which permanent points are assigned. You can find more information in the docs under ”points”",
+              "Points are an indicator of your commitment to the CasperArmy community. You can earn points in many different areas, one of which is having a ticket to which permanent points are assigned. You can find more information in our docs under ”points”",
           },
           {
             question:
