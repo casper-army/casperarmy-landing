@@ -49,14 +49,14 @@ export const CreatorFeatureBlocks = () => {
       <GridItem display="grid" gridArea="e">
         <Block
           label={"NFT MARKETPLACE"}
-          heading={"Participate in the buy & sell digital assetes"}
+          heading={"Participate in the buy & sell digital assets"}
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.6-Open-NFT-Marketplace"
         />
       </GridItem>
       <GridItem display="grid" gridArea="f">
         <Block
           label={"PROJECT REPUTATION"}
-          heading={"Point system & Rating"}
+          heading={"Points system & rating"}
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.10-point-system"
         />
       </GridItem>
