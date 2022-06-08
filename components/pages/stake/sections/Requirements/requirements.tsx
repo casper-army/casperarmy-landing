@@ -20,7 +20,7 @@ export const Requirements = () => {
         m={{ base: "6px 0px", md: "36px 0px" }}
       >
         <RequirementItem
-          content=" Join at least one CasperArmy social media channel: Telegram or Discord"
+          content=" Join at least one CasperArmy social media channel: Discord or Telegram"
           index={1}
         />
         <RequirementItem
@@ -28,23 +28,19 @@ export const Requirements = () => {
           index={2}
         />
         <RequirementItem
-          content="Establish a user account on Casperarmy.org (Available soon)"
+          content="Create a user account on Casperarmy.org (Available soon)"
           index={3}
         />
-        <RequirementItem content="Call-up Ticket purchase" index={4} />
+        <RequirementItem content="Purchase Call-up ticket" index={4} />
       </Flex>
       <Paragraph>
-        The above conditions will allow you to receive additional benefits from
-        staking your CSPR coins on the CasperArmy staking node. If your CSPR
-        coins are delegated, but you do not fulfil the above conditions, you
-        will only enjoy the rewards of staking, as we cannot allocate staking
-        points without a CasperArmy.org user account set-up and without ticket
-        purchase.
+        Meeting the above criteria will allow you to receive additional benefits on the CasperArmy platform.
+        If your CSPR is  delegated, but you do not fulfil the above conditions, you will only enjoy the rewards
+        of staking, as we cannot allocate staking points without a CasperArmy.org user account set-up and without a ticket purchase.
       </Paragraph>
       <Paragraph>
-        You can view the points you have accumulated for your engagement on our
-        social channels (Discord or Telegram) on the platform in your "user
-        account".
+        You can view the points you have accumulated  on our social channels (Discord or Telegram) and
+        on the CasperArmy platform within your user account panel".
       </Paragraph>
       <Paragraph>
         Amount of points will reflect how many tokens can be purchased by users
@@ -71,7 +67,7 @@ export const Requirements = () => {
         display="grid"
       >
         <Flex justifyContent="flex-start">
-          <HeaderButton>LEARN MORE ABOUT THE POINT SYSTEM</HeaderButton>
+          <HeaderButton>LEARN MORE ABOUT THE POINTS SYSTEM</HeaderButton>
         </Flex>
       </Link>
     </Grid>
