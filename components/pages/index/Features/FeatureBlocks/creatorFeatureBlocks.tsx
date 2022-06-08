@@ -49,7 +49,7 @@ export const CreatorFeatureBlocks = () => {
       <GridItem display="grid" gridArea="e">
         <Block
           label={"NFT MARKETPLACE"}
-          heading={"Participate in the buy & sell digital assets"}
+          heading={"Create, drop & sell yours digital assets"}
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.6-Open-NFT-Marketplace"
         />
       </GridItem>
