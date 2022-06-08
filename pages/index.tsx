@@ -79,7 +79,7 @@ const Home: NextPage = () => {
               heading: "Stake CSPR",
               index: 2,
               label: "INVESTOR VERIFICATION BY STAKING",
-              buttonText: "SEE OUR VALIDATOR",
+              buttonText: "STAKE NOW",
               image: ElementAssets.validator,
               soon: false,
               reversed: true,
