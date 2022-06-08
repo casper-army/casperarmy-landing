@@ -41,7 +41,7 @@ export const Steps: FC<ISteps> = ({ stepList }) => {
         <Box color="red">
           <Welcome>Become a casperarmy member</Welcome>
         </Box>
-        <SectionHeader>Steps to entry for investors</SectionHeader>
+        <SectionHeader>Entry steps for investors</SectionHeader>
         <Box textAlign="center">
           <SectionText>See how process looks for creators</SectionText>
         </Box>
