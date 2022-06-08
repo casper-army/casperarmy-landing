@@ -50,7 +50,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"NFT MARKETPLACE"}
           heading={
-            "Gateway to participate in the buying and selling of digital assetes"
+            "Gateway to participate in the buying and selling of digital assets"
           }
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.6-Open-NFT-Marketplace"
           image={BrandAssets.world}
