@@ -84,7 +84,7 @@ export const NFT = () => {
         </Flex>
         <Link zIndex="2000" href="https://casperarmy.io/">
           <HeaderButton>
-            GO TO CASPERARMY NFT SITE &nbsp;
+            CASPERARMY NFT SITE &nbsp;
             <Image src={IconAssets.arrowRight} />
           </HeaderButton>
         </Link>

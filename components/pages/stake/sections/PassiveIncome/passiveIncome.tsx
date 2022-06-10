@@ -12,7 +12,7 @@ export const PassiveIncome = () => {
         Your funds are working around the clock, earn a passive income.
       </CustomHeader>
       <Paragraph>
-        The validator has been established to support the decentralisation of
+        Our validator has been established to support the decentralisation of
         the Casper Network on which the CasperArmy project is based. Delegators
         participate in securing the network, receiving rewards from staking,
         extra benefits on our platform and support development of CasperArmy.
@@ -25,11 +25,11 @@ export const PassiveIncome = () => {
         <Flex flexDir="column" gap={{ base: "16px", md: "38px" }}>
           <Paragraph>
             <Text fontWeight="bold" color="white">
-              By staking together with CasperArmy you:
+              Take out together with CasperArmy you:
             </Text>
           </Paragraph>
           <Paragraph>
-            1. Receive points to get better conditions for purchasing new
+            1. Receive points to gain better opportunities for purchasing new
             CasperArmy products, such as CasperArmyNFT
           </Paragraph>
           <Paragraph>
@@ -37,16 +37,16 @@ export const PassiveIncome = () => {
             CasperArmy platform and the projects incubated on it
           </Paragraph>
           <Paragraph>
-            3. Opportunities to invest in projects development by third-party
+            3. Opportunities to invest in projects development to developed by third-party
             creators that have been previously vetted and voted on by the DAO -
             within{" "}
             <Text display="inline" color="white">
               Venture Capital
             </Text>
           </Paragraph>
-          <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.3%20Venture%20Capital">
+          <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.9-staking">
             <Flex justifyContent={{ base: "", md: "flex-start" }}>
-              <HeaderButton>Learn more (DOCS)</HeaderButton>
+              <HeaderButton>Learn more</HeaderButton>
             </Flex>
           </Link>
         </Flex>
@@ -56,7 +56,7 @@ export const PassiveIncome = () => {
       </Grid>
       <GlassIcon
         icon={<Image src={IconAssets.alert} />}
-        heading="The staked coins are never physically transferred to the validator"
+        heading="The staked coins are never physically transferred to validator"
         content={"Control of the coins always belongs to the delegator."}
         alternative
       />

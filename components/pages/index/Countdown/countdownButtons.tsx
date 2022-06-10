@@ -22,7 +22,7 @@ export const CountdownButtons = () => {
           textDecoration="none"
           _hover={{background: 'white', color: 'black'}}
         >
-          What is Call-up ticket
+          What are call up tickets
           <Image
             display={{ base: "none", md: "block" }}
             src={IconAssets.arrowRightBrand}

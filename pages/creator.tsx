@@ -64,8 +64,8 @@ const Home: NextPage = () => {
           stepList={[
             {
               content:
-                "By purchasing your ticket now, you secure lifetime access to the platform at a lower price and earn extra points that increase your chance of winning the CasperArmyNFT airdrop.",
-              heading: "Buy NFT Ticket",
+                "Secure lifetime access to the platform at a lower price and earn extra points that increase your chance of winning the CasperArmyNFT airdrop.",
+              heading: "Purchase a NFT Ticket",
               index: 1,
               label: "USER ACCESS BY CALL-UP TICKET",
               buttonText: "Purchase now",

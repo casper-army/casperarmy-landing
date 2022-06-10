@@ -15,7 +15,7 @@ const benefitList: Benefit[] = [
   {
     title: "Access & Membership",
     description:
-      "Gives you access to a creative platform. In combination with staking it entitles you to use all the tools of the CasperArmy platform",
+      "Gain access to a creative platform. in combination with staking, you’re entitled to use all the tools of the CasperArmy platform",
   },
   {
     title: "Allocation",

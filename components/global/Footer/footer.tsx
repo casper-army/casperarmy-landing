@@ -96,7 +96,7 @@ export const Footer = () => {
             gridGap="10px"
             display={{ base: "none", md: "flex" }}
           >
-            <SmallHeader>Write to headquarter</SmallHeader>
+            <SmallHeader>Contact headquarters</SmallHeader>
             <Text>If you have any questions, please write to us</Text>
             <></>
             <ChatButton />

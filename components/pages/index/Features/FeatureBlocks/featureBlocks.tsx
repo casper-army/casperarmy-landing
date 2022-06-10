@@ -24,7 +24,7 @@ export const FeatureBlocks = () => {
       <GridItem display="grid" gridArea="a">
         <Block
           label={"INCUBATION HUB"}
-          heading={"Collaboration and entrepreneurship hub"}
+          heading={"Collaboration & entrepreneurship hub"}
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.4%20Incubation%20HUB"
           bigImage
           image={BrandAssets.computer}
@@ -50,7 +50,7 @@ export const FeatureBlocks = () => {
         <Block
           label={"NFT MARKETPLACE"}
           heading={
-            "Gateway to participate in the buying and selling of digital assetes"
+            "Gateway to participate in the buying and selling of digital assets"
           }
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.6-Open-NFT-Marketplace"
           image={BrandAssets.world}

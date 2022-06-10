@@ -32,7 +32,7 @@ export const HardwareSpecs = () => {
     <Grid gridGap="24px">
       <CustomHeader smaller>Server Details</CustomHeader>
       <Paragraph>
-        The validator server CasperArmy is hosted on a dedicated machine.
+        Our validator is hosted on a dedicated server.
       </Paragraph>
       <Grid gap="19px">
         <Paragraph>

@@ -65,7 +65,7 @@ export const Rating = () => {
           lineHeight="180%"
           fontFamily="Sora, sans-serif"
         >
-          The entire CasperArmy platform ecosystem is based on a point system.
+          The entire CasperArmy platform ecosystem is based on a points system.
           CasperArmy investors are scored based on their engagement in the
           CasperArmy community and the broader CasperArmy ecosystem. This
           ensures that those who dedicate time, effort and capital to
