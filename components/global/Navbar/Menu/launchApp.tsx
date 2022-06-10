@@ -26,8 +26,6 @@ export const LaunchApp = () => {
     [state]
   );
 
-
-
   const [showDisconnect, setShowDisconnect] = useState<boolean>(false);
 
   return (
@@ -47,20 +45,22 @@ export const LaunchApp = () => {
       cursor="pointer"
       _hover={{ backgroundColor: "white", color: "black" }}
       onClick={async () => {
-        console.log(window)
-        console.log(window.casperlabsHelper)
-        try {
-          if (state) {
-            await window.casperlabsHelper.disconnectFromSite();
-            setState(null);
-          } else {
-            if (!state) {
-              await window.casperlabsHelper.requestConnection();
-              setState(await window.casperlabsHelper.getActivePublicKey());
+        console.log(window);
+        console.log(window.casperlabsHelper);
+        if (typeof window !== "undefined") {
+          try {
+            if (state) {
+              await window.casperlabsHelper.disconnectFromSite();
+              setState(null);
+            } else {
+              if (!state) {
+                await window.casperlabsHelper.requestConnection();
+                setState(await window.casperlabsHelper.getActivePublicKey());
+              }
             }
+          } catch (e) {
+            console.log(e);
           }
-        } catch (e) {
-          console.log(e);
         }
       }}
     >
