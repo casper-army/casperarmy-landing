@@ -61,7 +61,6 @@ export const LaunchApp = () => {
         }
       }}
     >
-<<<<<<< HEAD
       {state ? (
         <Grid
           _hover={{ color: "black" }}
@@ -77,14 +76,6 @@ export const LaunchApp = () => {
       ) : (
         "CONNECT WALLET"
       )}
-=======
-      CONNECT&nbsp;WALLET
-      <Box
-        display={{ base: "none", xl: "block" }}
-        bg="#FF0202"
-        boxSize="12px"
-      ></Box>
->>>>>>> b5b88eef0e11c6dbb460ba3cba105b84db62d2c2
     </Flex>
   );
 };
