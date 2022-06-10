@@ -10,6 +10,7 @@ import {
 import { isConnected } from "casper-js-sdk/dist/lib/Signer";
 import { Grid } from "@chakra-ui/react";
 
+
 const apiUrl =
   "020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed";
 const casperService = new CasperServiceByJsonRPC(apiUrl);
@@ -27,6 +28,8 @@ export const LaunchApp = () => {
   );
 
   const [showDisconnect, setShowDisconnect] = useState<boolean>(false);
+
+  
 
   return (
     <Flex

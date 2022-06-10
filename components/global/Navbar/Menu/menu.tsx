@@ -7,6 +7,11 @@ import Link from "next/link";
 import { Modal, ModalOverlay, useDisclosure } from "@chakra-ui/react";
 import React from "react";
 import { MobileNavigation } from "./mobileNavigation";
+import dynamic from "next/dynamic";
+
+const LaunchAppDynamic =  dynamic(() => Promise.resolve(LaunchApp), {
+  ssr: false,
+});
 
 export const Menu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -27,7 +32,7 @@ export const Menu = () => {
       </Link>
       <Navigation />
       <Flex display={{ base: "none", lg: "flex" }} justify="flex-end">
-        <LaunchApp />
+        <LaunchAppDynamic />
       </Flex>
       <Flex
         display={{ base: "flex", lg: "none" }}
