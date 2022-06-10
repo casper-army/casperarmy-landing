@@ -17,23 +17,25 @@ import {
   IndexHeading,
   IndexHeadingAddon,
 } from "../components/pages/index/header";
+import { Layout } from "../components/layout/layout";
 
 const Home: NextPage = () => {
   return (
-    <Flex overflowX="hidden" flexDir="column" bg="#161616" alignItems="center">
+    <Flex flexDir="column" alignItems="center">
       <CenterContainer>
         <Box pos="relative">
-          <Image
-            src={EffectAssets.mesh}
+          <Box
+            bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%);"
             zIndex="-20"
             pos="absolute"
-            right="-50%"
-            top="-300px"
-            transform="rotate(220deg), translateY(-50%)"
-            filter="blur(180px)"
+            right="0%"
+            boxSize={{ base: "200px", md: "400px" }}
+            top="0px"
+            transform="translate( 30%, 30%)"
+            filter={{ base: "blur(80px)", md: "blur(160px)" }}
           />
         </Box>
-        <Navbar />
+
         <PageHeader
           addon={<IndexHeadingAddon />}
           description={
@@ -54,7 +56,9 @@ const Home: NextPage = () => {
             filter="blur(180px)"
           />
         </Box>
+
         <Partners />
+
         <Countdown />
       </CenterContainer>
       <Features />
@@ -101,9 +105,12 @@ const Home: NextPage = () => {
         />
       </CenterContainer>
       <NFT />
-      <Footer />
     </Flex>
   );
+};
+
+(Home as any).getLayout = function getLayout(page: any) {
+  return <Layout>{page}</Layout>;
 };
 
 export default Home;

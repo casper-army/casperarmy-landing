@@ -11,22 +11,22 @@ import { Benefits } from "../components/pages/tickets/Benefits/benefits";
 import { TicketShowcase } from "../components/pages/tickets/TicketShowcase/ticketShowcase";
 import { Store } from "../components/pages/tickets/Store/store";
 import { FAQ } from "../components/shared/FAQ/faq";
+import { Layout } from "../components/layout/layout";
 
 const Tickets: NextPage = () => {
   return (
-    <Flex overflowX="hidden" flexDir="column" bg="#161616" alignItems="center">
-      <Box pos="relative" h="0px" w="100vw">
-        <Image
-          src={EffectAssets.curtain}
-          zIndex="0"
-          pos="absolute"
-          w="100vw"
-          left="0"
-          top="0"
-        />
-      </Box>
+    <Flex  flexDir="column" alignItems="center">
+      <Box pos="absolute" h="0px" bg="red" w="100vw">
+          <Image
+            src={EffectAssets.curtain}
+            zIndex="0"
+            pos="absolute"
+            w="100vw"
+            left="0"
+            top="-18vw"
+          />
+        </Box>
       <CenterContainer>
-        <Navbar />
         <PageHeader
           addon={<></>}
           description={
@@ -88,9 +88,17 @@ const Tickets: NextPage = () => {
           },
         ]}
       />
-      <Footer />
     </Flex>
   );
 };
+
+(Tickets as any).getLayout = function getLayout(page : any) {
+  return (
+    <Layout>
+      {page}
+    </Layout>
+  )
+}
+
 
 export default Tickets;

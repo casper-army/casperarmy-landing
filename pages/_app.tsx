@@ -2,8 +2,15 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import Head from "next/head";
+import { Navbar } from "../components/global/Navbar/navbar";
+import "regenerator-runtime/runtime";
+import { ThirdwebWeb3Provider } from "@3rdweb/hooks";
 
 function MyApp({ Component, pageProps }: AppProps) {
+
+  const getLayout = (Component as any).getLayout || ((page : any) => page)
+
+
   const theme = extendTheme({
     fonts: {
       heading: `'Sora', normal`,
@@ -21,8 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         />
       </Head>
-
-      <Component {...pageProps} />
+      {getLayout(<Component {...pageProps} />)}
     </ChakraProvider>
   );
 }

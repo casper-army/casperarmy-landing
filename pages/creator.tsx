@@ -15,10 +15,11 @@ import {
 } from "../components/pages/index/header";
 import { Features } from "../components/pages/index/Features/features";
 import { CreatorFeatures } from "../components/pages/index/Features/creatorFeatures";
+import { Layout } from "../components/layout/layout";
 
 const Home: NextPage = () => {
   return (
-    <Flex overflowX="hidden" flexDir="column" bg="#161616" alignItems="center">
+    <Flex  flexDir="column" alignItems="center">
       <CenterContainer>
         <Box pos="relative">
           <Box
@@ -32,7 +33,9 @@ const Home: NextPage = () => {
             filter={{ base: "blur(80px)", md: "blur(160px)" }}
           />
         </Box>
-        <Navbar />
+      
+      </CenterContainer>
+      <CenterContainer>
         <PageHeader
           addon={<CreatorHeadingAddon />}
           description={
@@ -69,7 +72,7 @@ const Home: NextPage = () => {
               image: ElementAssets.tickets,
               soon: false,
               reversed: false,
-              href: ""
+              href: "",
             },
             {
               content:
@@ -81,7 +84,7 @@ const Home: NextPage = () => {
               image: ElementAssets.AmlKyc,
               soon: true,
               reversed: true,
-              href: ""
+              href: "",
             },
             {
               content:
@@ -93,15 +96,24 @@ const Home: NextPage = () => {
               image: ElementAssets.incubationHub,
               soon: true,
               reversed: false,
-              href: ""
+              href: "",
             },
           ]}
         />
       </CenterContainer>
       <NFT />
-      <Footer />
+     
     </Flex>
   );
 };
+
+(Home as any).getLayout = function getLayout(page : any) {
+  return (
+    <Layout>
+      {page}
+    </Layout>
+  )
+}
+
 
 export default Home;

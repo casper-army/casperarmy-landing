@@ -5,7 +5,10 @@ import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
 import { Footer } from "../components/global/Footer/footer";
 import { PageHeader } from "../components/shared/PageHeader";
-import { IndexHeadingAddon, StakeHeadingAddon } from "../components/pages/index/header";
+import {
+  IndexHeadingAddon,
+  StakeHeadingAddon,
+} from "../components/pages/index/header";
 import { FAQ } from "../components/shared/FAQ/faq";
 import { BackgroundDark } from "../components/shared/containers/backgroundDark";
 import { TopIcons } from "../components/pages/stake/TopIcons/topIcons";
@@ -14,10 +17,11 @@ import { Requirements } from "../components/pages/stake/sections/Requirements/re
 import { HardwareSpecs } from "../components/pages/stake/sections/HardwareSpecs/hardwareSpecs";
 import { PassiveIncome } from "../components/pages/stake/sections/PassiveIncome/passiveIncome";
 import { StartStaking } from "../components/pages/stake/sections/StartStaking/startStaking";
+import { Layout } from "../components/layout/layout";
 
 const Home: NextPage = () => {
   return (
-    <Flex overflowX="hidden" flexDir="column" bg="#161616" alignItems="center">
+    <Flex  flexDir="column" alignItems="center">
       <CenterContainer>
         <Box pos="relative">
           <Box
@@ -31,7 +35,7 @@ const Home: NextPage = () => {
             filter={{ base: "blur(80px)", md: "blur(160px)" }}
           />
         </Box>
-        <Navbar />
+
         <PageHeader
           addon={<StakeHeadingAddon />}
           description={
@@ -111,9 +115,12 @@ const Home: NextPage = () => {
           ]}
         />
       </BackgroundDark>
-      <Footer />
     </Flex>
   );
+};
+
+(Home as any).getLayout = function getLayout(page: any) {
+  return <Layout>{page}</Layout>;
 };
 
 export default Home;
