@@ -9,7 +9,7 @@ export const Layout = ({ children }: any) => {
   return (
     <>
       <Head>
-        <title>CasperArmy - DAO platform for creators and investors with project incubation HUB and Venture Capital</title>
+        <title>CasperArmy</title>
       </Head>
       <Flex
         overflowX="hidden"
