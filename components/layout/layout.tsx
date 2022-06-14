@@ -9,7 +9,7 @@ export const Layout = ({ children }: any) => {
   return (
     <>
       <Head>
-        <title>CasperArm y</title>
+        <title>CasperArmy</title>
       </Head>
       <Flex
         overflowX="hidden"
