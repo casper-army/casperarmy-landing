@@ -19,7 +19,7 @@ const Tickets: NextPage = () => {
       <Box pos="absolute" h="0px" bg="red" w="100vw">
           <Image
             src={EffectAssets.curtain}
-            zIndex="0"
+            zIndex="-0.5"
             pos="absolute"
             w="100vw"
             left="0"

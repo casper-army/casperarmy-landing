@@ -16,11 +16,11 @@ export const Layout = ({ children }: any) => {
         flexDir="column"
         bg="#161616"
         alignItems="center"
+		zIndex="1"
       >
         <CenterContainer>
           <Navbar />
         </CenterContainer>
-		
         {children}
         <Footer />
       </Flex>

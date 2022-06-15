@@ -21,12 +21,12 @@ import { Layout } from "../components/layout/layout";
 
 const Home: NextPage = () => {
   return (
-    <Flex flexDir="column" alignItems="center">
+    <Flex flexDir="column" alignItems="center" zIndex="1">
       <CenterContainer>
-        <Box pos="relative">
+        <Box pos="relative" zIndex="-20">
           <Box
             bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%);"
-            zIndex="-20"
+            zIndex="0"
             pos="absolute"
             right="0%"
             boxSize={{ base: "200px", md: "400px" }}
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           label={"Welcome to casper army"}
           heading={<IndexHeading />}
         />
-        <Box pos="relative">
+        <Box pos="relative" zIndex="0">
           <Image
             src={EffectAssets.elipse}
             zIndex="-20"

@@ -25,7 +25,7 @@ export const PageHeader: FC<IPageHeader> = ({
       align="center"
       textAlign="center"
       position="relative"
-      zIndex="1"
+      zIndex="-5"
     >
       <Welcome lines>{label}</Welcome>
       <Heading

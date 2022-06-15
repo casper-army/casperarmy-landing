@@ -5,7 +5,7 @@ import { Topbar } from "./Topbar/topbar";
 
 export const Navbar = () => {
   return (
-    <Grid bg="transparent" zIndex="20">
+    <Grid bg="transparent" position="relative" zIndex="2000">
       <Topbar />
       <Menu />
     </Grid>

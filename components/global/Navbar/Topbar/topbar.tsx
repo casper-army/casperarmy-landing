@@ -13,6 +13,8 @@ export const Topbar = () => {
     <Box
       display={{ base: "none", md: "block" }}
       borderBottom="1px solid rgba(255,255,255,0.1)"
+      zIndex="200"
+      position="relative"
     >
       <Flex bg="transparent" justify="space-between" p="12px 0px">
         <CornerLinks />
