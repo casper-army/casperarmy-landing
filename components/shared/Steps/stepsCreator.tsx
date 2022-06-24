@@ -21,7 +21,7 @@ interface ISteps {
   stepList: StepItem[];
 }
 
-export const Steps: FC<ISteps> = ({ stepList }) => {
+export const StepsCreator: FC<ISteps> = ({ stepList }) => {
   return (
     <Grid padding="100px 0px 100px">
       <Box pos="relative">
