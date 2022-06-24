@@ -38,9 +38,9 @@ const Tickets: NextPage = () => {
         />
       </CenterContainer>
       <TicketShowcase />
+      <Countdown />
       {/*<Store />*/}
       <Benefits />
-      <Countdown />
       <FAQ
         questions={[
           {
