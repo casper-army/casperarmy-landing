@@ -39,6 +39,7 @@ const Tickets: NextPage = () => {
       </CenterContainer>
       <TicketShowcase />
       {/*<Store />*/}
+      <Store/>
       <Countdown />
       <Benefits />
       <FAQ
