@@ -5,6 +5,7 @@ import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
 import { Footer } from "../components/global/Footer/footer";
 import { Box, Image } from "@chakra-ui/react";
+import { Countdown } from "../components/pages/index/Countdown/countdown";
 import { EffectAssets } from "../config";
 import { PageHeader } from "../components/shared/PageHeader";
 import { Benefits } from "../components/pages/tickets/Benefits/benefits";
@@ -38,6 +39,7 @@ const Tickets: NextPage = () => {
       </CenterContainer>
       <TicketShowcase />
       {/*<Store />*/}
+      <Countdown />
       <Benefits />
       <FAQ
         questions={[
