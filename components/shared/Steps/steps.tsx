@@ -3,7 +3,7 @@ import React, { FC } from "react";
 import { SectionHeader } from "../../texts/sectionHeader";
 import { SectionText } from "../../texts/sectionText";
 import { Welcome } from "../../texts/welcome";
-import { CustomLink } from "../../../shared/typography/CustomLink";
+import { CustomLink } from "../../shared/typography/CustomLink";
 import { Step } from "./step";
 
 export interface StepItem {
