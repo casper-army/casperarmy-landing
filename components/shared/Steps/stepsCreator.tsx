@@ -3,6 +3,7 @@ import React, { FC } from "react";
 import { SectionHeader } from "../../texts/sectionHeader";
 import { SectionText } from "../../texts/sectionText";
 import { Welcome } from "../../texts/welcome";
+import { CustomLink } from "../../shared/typography/CustomLink";
 import { Step } from "./step";
 
 export interface StepItem {
@@ -43,7 +44,7 @@ export const StepsCreator: FC<ISteps> = ({ stepList }) => {
         </Box>
         <SectionHeader>Entry steps for creator</SectionHeader>
         <Box textAlign="center">
-          <SectionText>See how process looks for <a href="https://testnet.casperarmy.org/">investors</a></SectionText>
+          <SectionText>See how process looks for <CustomLink href="https://testnet.casperarmy.org/">investors</CustomLink></SectionText>
         </Box>
       </Flex>
       <Grid
