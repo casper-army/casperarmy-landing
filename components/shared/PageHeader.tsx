@@ -38,7 +38,7 @@ export const PageHeader: FC<IPageHeader> = ({
         {heading}
       </Heading>
       <Box maxWidth="850px" padding="0px 10px">
-        <TextBasic>{description}</TextBasic>.split("<br/>").join("\n")
+        <TextBasic>{description}</TextBasic>
       </Box>
       <Box>{addon}</Box>
     </Flex>
