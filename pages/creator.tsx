@@ -6,7 +6,7 @@ import { Navbar } from "../components/global/Navbar/navbar";
 import { ElementAssets } from "../config";
 import { NFT } from "../components/shared/NFT/nft";
 import { Footer } from "../components/global/Footer/footer";
-import { Steps } from "../components/shared/Steps/steps";
+import { StepsCreator } from "../components/shared/Steps/stepsCreator";
 import { PageHeader } from "../components/shared/PageHeader";
 
 import {
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
       </CenterContainer>
       <CreatorFeatures />
       <CenterContainer>
-        <Steps
+        <StepsCreator
           stepList={[
             {
               content:
