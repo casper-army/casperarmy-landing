@@ -25,7 +25,7 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
       css={{
         ".active": {
           fontWeight: "800",
-          color="red"
+          color="red",
           
         },
       }}
