@@ -9,7 +9,7 @@ interface IPageHeader {
   addon: React.ReactNode;
   label: string;
   heading: React.ReactNode | string;
-  description: Text;
+  description: string;
 }
 
 export const PageHeader: FC<IPageHeader> = ({
