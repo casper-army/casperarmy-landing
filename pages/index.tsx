@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { Flex, Box } from "@chakra-ui/layout";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
-import { Text } from "react-native";
+import { Text } from "react-native-web";
 import { Navbar } from "../components/global/Navbar/navbar";
 import { Image } from "@chakra-ui/image";
 import { Partners } from "../components/pages/index/Partners/partners";
@@ -39,9 +39,8 @@ const Home: NextPage = () => {
 
         <PageHeader
           addon={<IndexHeadingAddon />}
-          description={ <Text>{ 'A Casper Network community project that unites\nA DAO platform for creators and investors with project incubation HUB and Venture Capital' } </Text>
-            
-                      }
+          description=<Text>{"Hi<br/> this is a test message.".split("<br/>").join("\n")}</Text>
+          
           label={"Welcome to #CasperArmy"}
           heading={<IndexHeading />}
         />
