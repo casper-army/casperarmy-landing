@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           description={
             "A Casper Network community project that unites A DAO platform for creators and investors with project incubation HUB and Venture Capital"
           }
-          label={"Welcome to casper army"}
+          label={"Welcome to #CasperArmy"}
           heading={<IndexHeading />}
         />
         <Box pos="relative" zIndex="0">
