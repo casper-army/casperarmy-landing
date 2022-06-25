@@ -44,7 +44,7 @@ export const Steps: FC<ISteps> = ({ stepList }) => {
         </Box>
         <SectionHeader>Entry steps for investors</SectionHeader>
         <Box textAlign="center">
-          <SectionText>See how process looks for <CustomLink href="https://testnet.casperarmy.org/creator">creators</CustomLink></SectionText>
+          <SectionText>See how process looks for <CustomLink href="/creator">creators</CustomLink></SectionText>
         </Box>
       </Flex>
       <Grid
