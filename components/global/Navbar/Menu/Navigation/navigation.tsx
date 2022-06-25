@@ -17,8 +17,6 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
       flexDir={{ base: "column", lg: "initial" }}
       zIndex="1"
       textAlign={{ base: "center", lg: "initial" }}
-      color="red"
-          
 
       fontWeight="600"
       letterSpacing="0.1em"
