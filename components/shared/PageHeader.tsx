@@ -18,7 +18,7 @@ export const PageHeader: FC<IPageHeader> = ({
   heading,
   description,
 }) => {
-	var desc = description.split("<br/>");
+	var desc = description.split("<br/>").join("\n");
 	
   return (
     <Flex
