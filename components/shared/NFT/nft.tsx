@@ -47,7 +47,7 @@ export const NFT = () => {
         <SectionHeader>CasperArmyNFT is&nbsp;coming!</SectionHeader>
         <Box textAlign="center">
           <SectionText>
-            Buy a CasperArmyNFT and become an elite member to receive extra
+            Buy a #CasperArmyNFT and become an elite member to receive extra
             privileges
           </SectionText>
         </Box>
