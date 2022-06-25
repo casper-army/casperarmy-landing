@@ -12,9 +12,9 @@ export const StartStaking = () => {
       <CustomHeader>How to start staking?</CustomHeader>
       <Paragraph>
         To start delegating CSPR on our validator you will need to have a Casper
-        Signer or Ledger hardware wallet. If you dont have the official wallet 
-        please read our tutorial on how to set up a Casper signer account 
-        to delegate or our tutorial on how to delgate using Ledger.
+        Signer or Ledger hardware wallet. If you don't have the official wallet 
+        please read our tutorial on how to set up a Casper Signer account 
+        to delegate or tutorial on how to delgate using Ledger.
       </Paragraph>
       <Grid
         templateColumns={{ base: "1fr", md: "1fr auto" }}
