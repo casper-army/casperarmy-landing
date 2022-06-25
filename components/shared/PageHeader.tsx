@@ -8,7 +8,7 @@ interface IPageHeader {
   addon: React.ReactNode;
   label: string;
   heading: React.ReactNode | string;
-  description: string;
+  description: string | React.ReactNode;
 }
 
 export const PageHeader: FC<IPageHeader> = ({
@@ -17,7 +17,6 @@ export const PageHeader: FC<IPageHeader> = ({
   heading,
   description,
 }) => {
-	var desc = description.split("<br/>").join("\n");
 	
   return (
     <Flex
@@ -40,7 +39,7 @@ export const PageHeader: FC<IPageHeader> = ({
         {heading}
       </Heading>
       <Box maxWidth="850px" padding="0px 10px">
-	<TextBasic>{desc}</TextBasic>
+	<TextBasic>{description}</TextBasic>
       </Box>
       <Box>{addon}</Box>
     </Flex>
