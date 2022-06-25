@@ -72,7 +72,7 @@ const Home: NextPage = () => {
               image: ElementAssets.tickets,
               soon: false,
               reversed: false,
-              href: "",
+              href: "/tickets",
             },
             {
               content:
