@@ -18,6 +18,8 @@ export const PageHeader: FC<IPageHeader> = ({
   heading,
   description,
 }) => {
+	var desc = description.split("<br/>").join("\n");
+	
   return (
     <Flex
       m={{ base: "50px 0px", md: "150px 0px" }}
