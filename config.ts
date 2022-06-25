@@ -52,11 +52,12 @@ export const ElementAssets = {
 } as const;
 
 export const PartnerAssets = {
+  dotOracle: partnerAssetsUrl("dotoracle.svg"),
+  tubbly: partnerAssetsUrl("tubbly.svg"),
   casperblockchain: partnerAssetsUrl("casperblockchain.svg"),
   csprPl: partnerAssetsUrl("cspr-pl.svg"),
   casperDash: partnerAssetsUrl("casper-dash.svg"),
   awesomecasper: partnerAssetsUrl("awesome-casper.svg"),
-  tubbly: partnerAssetsUrl("tubbly.svg"),
 } as const;
 
 export const IconAssets = {
@@ -83,11 +84,12 @@ export const SocialAssets = {
 } as const;
 
 export const PartnerUrls = {
+  dotOracle: "https://dotoracle.network/",
+  tubbly: "https://www.tubbly.io/",
   awesomecasper: "https://awesomecasper.com/",
   csprPl: "https://cspr.pl/",
   casperDash: "https://casperdash.io/",
-  casperblockchain: "https://casperblockchain.io",
-  tubbly: ""
+  casperblockchain: "https://casperblockchain.io"
 } as const;
 
 export const SocialMediaUrls = {
