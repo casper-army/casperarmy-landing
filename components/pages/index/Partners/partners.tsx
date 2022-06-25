@@ -7,6 +7,18 @@ import { Image } from "@chakra-ui/image";
 const partnersList = [
 
   {
+    key: "dotoracle",
+    image: PartnerAssets.dotOracle,
+    url: PartnerUrls.dotOracle,
+  },
+
+  {
+    key: "tubbly",
+    image: PartnerAssets.tubbly,
+    url: PartnerUrls.tubbly,
+  },
+
+  {
     key: "cspr pl",
     image: PartnerAssets.csprPl,
     url: PartnerUrls.csprPl,
@@ -20,12 +32,6 @@ const partnersList = [
     key: "casper blockchain",
     image: PartnerAssets.casperblockchain,
     url: PartnerUrls.casperblockchain,
-  },
-
-  {
-    key: "tubbly",
-    image: PartnerAssets.tubbly,
-    url: PartnerUrls.tubbly,
   },
 ];
 
