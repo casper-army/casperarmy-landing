@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { Box, Flex } from "@chakra-ui/layout";
 import { Welcome } from "../texts/welcome";
 import { Heading } from "@chakra-ui/react";
+import { Text } from "react-native-web";
 import { TextBasic } from "../texts/textBasic";
 
 interface IPageHeader {
