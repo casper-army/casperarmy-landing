@@ -40,8 +40,7 @@ const Home: NextPage = () => {
 
         <PageHeader
           addon={<IndexHeadingAddon />}
-          description=<SplitText>
-  Hello World
+          <SplitText>Hello World
           Hello World
 </SplitText>
           
