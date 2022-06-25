@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { Flex, Box } from "@chakra-ui/layout";
-import ( SplitText } from "@cyriacbr/react-split-text"; // Dodałem podział tesktu
+import "@cyriacbr/react-split-text";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
