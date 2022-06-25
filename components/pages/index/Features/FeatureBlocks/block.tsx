@@ -40,7 +40,7 @@ export const Block: FC<IBlock> = ({
         <Heading>
           <Box
             fontSize={bigImage ? { base: "100%", md: "140%" } : "100%"}
-            mt={bigImage ? "40px" : "0px"}
+            //mt={bigImage ? "40px" : "0px"}
           >
             {heading}
           </Box>
