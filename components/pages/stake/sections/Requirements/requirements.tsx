@@ -34,9 +34,9 @@ export const Requirements = () => {
         <RequirementItem content="Purchase Call-up ticket" index={4} />
       </Flex>
       <Paragraph>
-        Meeting the above criteria will allow you to receive additional benefits on the CasperArmy platform.
-        If your CSPR is  delegated, but you do not fulfil the above conditions, you will only enjoy the rewards
-        of staking, as we cannot allocate staking points without a CasperArmy.org user account set-up and without a ticket purchase.
+        Meeting the above criteria will allow you to receive additional benefits we offer on the CasperArmy platform.
+        If you delegate CSPR with us, but you do not also fulfill the above conditions, you will only enjoy staking rewards.
+        Points accumulated will not be taken into account until a user account is created and a Call-up Ticket is purchased.
       </Paragraph>
       <Paragraph>
         You can view the points you have accumulated  on our social channels (<CustomLink href="https://discord.gg/sZQVdRCyqx">
