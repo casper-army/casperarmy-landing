@@ -6,7 +6,7 @@ import { Block } from "./block";
 
 export const FeatureLabel = ({ children }: any) => (
   <Flex flexDir="column" gap="12px" color="#FF0202" fontWeight="bold">
-    {children} <Box w="8px" h="2px" bg="rgba(255,255,255,0.5)" />
+    {children} 
   </Flex>
 );
 
@@ -15,7 +15,7 @@ export const FeatureBlocks = () => {
     <Grid
       minH="800px"
       maxH={{ base: "auto", md: "800px" }}
-      
+      mt="20px"
       gridTemplateAreas={{ base: "'a' 'b' 'c' 'd'", xl: "'a b c' 'a d d'" }}
       gridTemplateColumns={{ base: "1fr", xl: "1.5fr 1fr 1fr" }}
       gridGap="24px"
