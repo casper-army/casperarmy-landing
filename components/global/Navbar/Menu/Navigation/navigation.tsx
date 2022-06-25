@@ -25,6 +25,9 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
         ".active": {
           fontWeight: "800",          
         },
+        ":hover": {
+          color: "red",
+        },
       }}
     >
       <NavItem url="/">investor</NavItem>
