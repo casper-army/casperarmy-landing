@@ -12,7 +12,7 @@ export const TopIcons = () => {
 	  	  <GlassIcon
 	  	content={"We care about the environment, so our servers use renewable energy sources. Read more..."}
 		icon={<Image src={IconAssets.server}/>}
-		heading={'We are Eco Frienfly!'}
+		heading={'We are Eco Friendly!'}
 	  />
   </Grid>;
 };
