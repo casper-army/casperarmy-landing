@@ -39,7 +39,11 @@ export const Requirements = () => {
         of staking, as we cannot allocate staking points without a CasperArmy.org user account set-up and without a ticket purchase.
       </Paragraph>
       <Paragraph>
-        You can view the points you have accumulated  on our social channels (Discord or Telegram) and
+        You can view the points you have accumulated  on our social channels (<CustomLink href="https://discord.gg/sZQVdRCyqx">
+          Discord
+        </CustomLink>{" "} or <CustomLink href="https://t.me/casperarmyofficial">
+          Telegram
+        </CustomLink>) and
         on the CasperArmy platform within your user account panel.
       </Paragraph>
       <Paragraph>
