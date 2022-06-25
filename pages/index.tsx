@@ -3,6 +3,7 @@ import { Flex, Box } from "@chakra-ui/layout";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
 import { Text } from "react-native-web";
+import { SplitText } from '@cyriacbr/react-split-text'
 import { Navbar } from "../components/global/Navbar/navbar";
 import { Image } from "@chakra-ui/image";
 import { Partners } from "../components/pages/index/Partners/partners";
@@ -39,7 +40,10 @@ const Home: NextPage = () => {
 
         <PageHeader
           addon={<IndexHeadingAddon />}
-          description={<Text>{"Hi<br/> this is a test message.".split("<br/>").join("\n")}</Text>}
+          description={<SplitText>
+  Hello World
+          Hello World
+</SplitText>}
           
           
           label={"Welcome to #CasperArmy"}
