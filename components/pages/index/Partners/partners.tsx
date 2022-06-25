@@ -3,9 +3,9 @@ import { Flex, Box } from "@chakra-ui/layout";
 import { PartnerAssets, PartnerUrls } from "../../../../config";
 import Link from "next/link";
 import { Image } from "@chakra-ui/image";
+import Marquee from "react-fast-marquee";
 
 const partnersList = [
-
   {
     key: "dotoracle",
     image: PartnerAssets.dotOracle,
@@ -37,32 +37,36 @@ const partnersList = [
 
 export const Partners = () => {
   return (
-    
     <Flex
       gridGap={{ base: "40px", md: "96px" }}
       align="center"
       overflowX="scroll"
       padding="20px 0px"
       justify="center"
+      w="100vw"
       css={{
-        '&::-webkit-scrollbar': {
-          display: 'none',
+        "&::-webkit-scrollbar": {
+          display: "none",
         },
-        '&::-webkit-scrollbar-track': {
-          display: 'none',
+        "&::-webkit-scrollbar-track": {
+          display: "none",
         },
-        '&::-webkit-scrollbar-thumb': {
-          display: 'none'
+        "&::-webkit-scrollbar-thumb": {
+          display: "none",
         },
       }}
     >
-      {partnersList.map((partner) => {
-        return (
-          <Link key={partner.key} href={partner.url}>
-            <Image cursor="pointer" src={partner.image} />
-          </Link>
-        );
-      })}
+      <Marquee gradient={false}>
+        {partnersList.map((partner) => {
+          return (
+            <Box>
+              <Link key={partner.key} href={partner.url}>
+                <Image margin={{base: "0px 50px", md: "0px 100px"}} cursor="pointer" src={partner.image} />
+              </Link>
+            </Box>
+          );
+        })}
+      </Marquee>
     </Flex>
   );
 };

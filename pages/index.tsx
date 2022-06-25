@@ -39,7 +39,12 @@ const Home: NextPage = () => {
         <PageHeader
           addon={<IndexHeadingAddon />}
           description={
-            <>Casper Network community project that unites.<br/> DAO platform for creators and investors with a project incubation HUB Decentralized Autonomous Launchpad and Venture Capital.</>
+            <>
+              Casper Network community project that unites.
+              <br /> DAO platform for creators and investors with a project
+              incubation HUB Decentralized Autonomous Launchpad and Venture
+              Capital.
+            </>
           }
           label={"Welcome to #CasperArmy"}
           heading={<IndexHeading />}
@@ -56,11 +61,12 @@ const Home: NextPage = () => {
             filter="blur(180px)"
           />
         </Box>
-
-        <Partners />
-
+      </CenterContainer>
+      <Partners />
+      <CenterContainer>
         <Countdown />
       </CenterContainer>
+
       <Features />
       <CenterContainer>
         <Steps
