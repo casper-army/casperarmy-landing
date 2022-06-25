@@ -25,7 +25,7 @@ export const Block: FC<IBlock> = ({
   return (
     <Link href={href}>
       <GlassContainer onClick={() => {}}>
-        
+        <FeatureLabel>{label}</FeatureLabel>
         {bigImage ? image && <Image w="200px" src={image} /> : <Box></Box>}
         {!bigImage && image && (
           <Image
