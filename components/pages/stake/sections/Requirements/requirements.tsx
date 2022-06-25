@@ -40,7 +40,7 @@ export const Requirements = () => {
       </Paragraph>
       <Paragraph>
         You can view the points you have accumulated  on our social channels (Discord or Telegram) and
-        on the CasperArmy platform within your user account panel".
+        on the CasperArmy platform within your user account panel.
       </Paragraph>
       <Paragraph>
         Amount of points will reflect how many tokens can be purchased by users
