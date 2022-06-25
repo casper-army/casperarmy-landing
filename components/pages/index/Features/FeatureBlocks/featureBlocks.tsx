@@ -6,7 +6,8 @@ import { Block } from "./block";
 
 export const FeatureLabel = ({ children }: any) => (
   <Flex flexDir="column" gap="12px" color="#FF0202" fontWeight="bold">
-    {children} 
+    {children}
+    //<Box w="8px" h="2px" bg="rgba(255,255,255,0.5)" />
   </Flex>
 );
 
