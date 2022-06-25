@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { Flex, Box } from "@chakra-ui/layout";
-import { Text } from @"react-native-paper";
+import { Text } from "react-native-web";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
         <PageHeader
           addon={<IndexHeadingAddon />}
-          description={ <Text>{ "A Casper Network community project that unites<br/>A DAO platform for creators and investors with project incubation HUB and Venture Capital".split("<br/>").join("\n") } </Text>
+          description={ <Text>{ 'A Casper Network community project that unites\nA DAO platform for creators and investors with project incubation HUB and Venture Capital' } </Text>
             
                       }
           label={"Welcome to #CasperArmy"}
