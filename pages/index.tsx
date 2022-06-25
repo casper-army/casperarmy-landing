@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 
         <PageHeader
           addon={<IndexHeadingAddon />}
-          description={  <Text>{"Casper Network community project that unites DAO platform for creators and investors with a project incubation HUB Decentralized Autonomous Launchpad and Venture Capital"}</Text>
+          description={  <SplitText>Casper Network community project that unites DAO platform for creators and investors with a project incubation HUB Decentralized Autonomous Launchpad and Venture Capital</SplitText>
           }
           
           
