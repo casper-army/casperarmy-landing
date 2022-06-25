@@ -68,7 +68,7 @@ export const Step: FC<IStep> = ({
         >
           {label}
         </Text>
-        <Box ml="1px" w="8px" h="2px" bg="white" />
+        {/*<Box ml="1px" w="8px" h="2px" bg="white" />*/}
         <Heading fontSize={{ base: "35px", md: "50px" }} lineHeight="140%">
           {heading}
         </Heading>
