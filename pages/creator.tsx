@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           description={
             "Casper Network community project that unites DAO platform for creators and investors with a project incubation HUB Decentralized Autonomous Launchpad and Venture Capital"
           }
-          label={"Welcome to casper army"}
+          label={"Welcome to #CasperArmy"}
           heading="First DAO with DAL on the Casper Network"
         />
 
