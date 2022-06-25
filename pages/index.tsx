@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { Flex, Box } from "@chakra-ui/layout";
-import { Text } from "@react-native-web";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
 import { Navbar } from "../components/global/Navbar/navbar";
