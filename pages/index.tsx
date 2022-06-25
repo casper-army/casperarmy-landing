@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { Flex, Box } from "@chakra-ui/layout";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
+import { Text } from "react-native-web";
 import { Navbar } from "../components/global/Navbar/navbar";
 import { Image } from "@chakra-ui/image";
 import { Partners } from "../components/pages/index/Partners/partners";
