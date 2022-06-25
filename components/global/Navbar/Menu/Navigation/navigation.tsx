@@ -17,8 +17,7 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
       flexDir={{ base: "column", lg: "initial" }}
       zIndex="1"
       textAlign={{ base: "center", lg: "initial" }}
-      color="#FF0202"
-      _hover={{ color: "blue", stroke: "blue" }}
+      
 
       fontWeight="600"
       letterSpacing="0.1em"
@@ -26,6 +25,8 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
       css={{
         ".active": {
           fontWeight: "800",
+          color="#FF0202"
+          _hover={{ color: "blue", stroke: "blue" }}
         },
       }}
     >
