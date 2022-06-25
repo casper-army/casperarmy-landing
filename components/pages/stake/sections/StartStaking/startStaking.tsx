@@ -22,7 +22,7 @@ export const StartStaking = () => {
         m="30px 0px"
       >
         <Flex flexDir="column" gap="38px">
-          <CustomHeader smaller>CasperArmy is eco-friendly</CustomHeader>
+          <CustomHeader smaller>CasperArmy is Eco-Friendly</CustomHeader>
           <Paragraph>
             The fate of our planet is particularly important to us. We want the
             development of blockchain technology and our business to not
@@ -55,7 +55,7 @@ export const StartStaking = () => {
           obtained from 100% renewable energy sources. You can read more about
           this{" "}
           <CustomLink href="https://www.hetzner.com/unternehmen/umweltschutz/">
-            here
+            here.
           </CustomLink>
         </Paragraph>
       </Box>
