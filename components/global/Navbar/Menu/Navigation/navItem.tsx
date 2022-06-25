@@ -10,7 +10,7 @@ interface INavItem {
 
 export const NavItem: FC<INavItem> = ({ url, children }) => {
   const router = useRouter();
-  _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
+  
   return (
     <Box
       textTransform="uppercase"
