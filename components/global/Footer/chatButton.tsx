@@ -14,8 +14,8 @@ export const ChatButton = () => {
         border="1px solid rgba(255,255,255,0.1)"
         borderRadius="4px"
         align="center"
-        _hover={{ background: "#FF0202", color: "white", }} // dodałem hover w menu
-       // _hover={{ backgroundColor: "white", color: "black" }}
+       // _hover={{ background: "#FF0202", color: "white", }}
+        _hover={{ backgroundColor: "white", color: "black" }}
         cursor="pointer"
       >
         <Image src={IconAssets.chat} />
