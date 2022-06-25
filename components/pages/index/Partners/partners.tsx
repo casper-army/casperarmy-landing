@@ -61,7 +61,7 @@ export const Partners = () => {
           return (
             <Box>
               <Link key={partner.key} href={partner.url}>
-                <Image margin={{base: "0px 50px", md: "0px 100px"}} cursor="pointer" src={partner.image} />
+                <Image margin={{base: "0px 30px", md: "0px 50px", lg: "0px 100px"}} cursor="pointer" src={partner.image} />
               </Link>
             </Box>
           );
