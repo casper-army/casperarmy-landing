@@ -39,7 +39,7 @@ export const PageHeader: FC<IPageHeader> = ({
         {heading}
       </Heading>
       <Box maxWidth="850px" padding="0px 10px">
-      <Text>{description.split("<br/>").join("\n")}</Text>
+      <textarea>{description.split("<br/>").join("\n")}</textarea>
       </Box>
       <Box>{addon}</Box>
     </Flex>
