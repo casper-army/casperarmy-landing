@@ -27,6 +27,8 @@ export const LoggedUser = ({
       gap="19px"
       position="relative"
       zIndex="10000"
+      w={{ base: "200px", lg: "auto" }}
+      margin={{ base: "0 auto", lg: "initial" }}
     >
       <Flex
         flexDir="column"

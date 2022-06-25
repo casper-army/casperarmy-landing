@@ -12,9 +12,9 @@ export const Countdown = () => {
         display={{ base: "flex", md: "none" }}
         justify="center"
         padding="60px 0px"
-
+        position="relative"
       >
-        <Image src={ElementAssets.web3SpinnerTransparent}></Image>
+        <Image src={ElementAssets.web3SpinnerTransparent} position="absolute" left="0" top="50%"></Image>
       </Flex>
       <Grid
         margin={{ base: "20px 0px 20px", md: "200px 0px" }}
@@ -51,7 +51,7 @@ export const Countdown = () => {
           display={{ base: "none", xl: "block" }}
           top="50%"
           left="0%"
-          transform="translate(25%, -50%)"
+          transform="translate(-0%, -50%)"
         />
         <Image
           pos="absolute"
