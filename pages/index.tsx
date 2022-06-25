@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
         <PageHeader
           addon={<IndexHeadingAddon />}
-          description=<Text>{"Hi<br/> this is a test message.".split("<br/>").join("\n")}</Text>
+          description={<Text>{"Hi<br/> this is a test message.".split("<br/>").join("\n")}</Text>}
           
           
           label={"Welcome to #CasperArmy"}
