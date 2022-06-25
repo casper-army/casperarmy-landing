@@ -13,6 +13,7 @@ export const NavItem: FC<INavItem> = ({ url, children }) => {
   
   return (
     <Box
+        _hover={{ background: "white", color: "teal.500", }}
       textTransform="uppercase"
       className={router.pathname == url ? "active" : ""}
     >
