@@ -58,7 +58,7 @@ const Home: NextPage = () => {
             <>
               Casper Network community project that unites.
               <br /> DAO platform for creators and investors with a project
-              incubation HUB Decentralized Autonomous Launchpad and Venture
+              incubation HUB, Decentralized Autonomous Launchpad and Venture
               Capital.
             </>
           }
