@@ -35,16 +35,15 @@ export const PassiveIncome = () => {
             CasperArmy products, such as CasperArmyNFT.
           </Paragraph>
           <Paragraph>
-            2. Gain a voice in the DAO on the direction of development of the
+            2. Gain a voice in the {" "}
+            <Text display="inline" color="white">
+              DAO
+            </Text> on the direction of development of the
             CasperArmy platform and the projects incubated on it.
           </Paragraph>
           <Paragraph>
             3. Opportunities to invest in projects development to developed by third-party
-            creators that have been previously vetted and voted on by the within{" "}
-            <Text display="inline" color="white">
-              DAO
-            </Text> -
-            within{" "}
+            creators that have been previously vetted and voted on by the DAO - within{" "}
             <Text display="inline" color="white">
               Venture Capital.
             </Text>
