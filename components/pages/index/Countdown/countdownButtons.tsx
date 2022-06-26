@@ -12,7 +12,7 @@ export const CountdownButtons = () => {
       position="relative"
       zIndex="0"
     >
-      <Link href="/tickets" display="grid" position="relative" zIndex="10">
+      <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.7-call-up-ticket" display="grid" position="relative" zIndex="10">
         <Flex
           border="2px solid white"
           padding={{ base: "0px 10px", md: "0px 80px" }}
