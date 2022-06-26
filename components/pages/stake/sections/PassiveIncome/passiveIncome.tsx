@@ -9,7 +9,7 @@ export const PassiveIncome = () => {
   return (
     <Grid gridGap={{ base: "16px", md: "24px" }}>
       <CustomHeader>
-        You earn a passive income around the clock
+        Earn a passive income around the clock
       </CustomHeader>
       <Paragraph>
         Our validator has been established to support the decentralisation of
