@@ -43,7 +43,7 @@ export const TicketShowcase = () => {
         </Grid>
 
         <Box
-          ref={"https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.7-call-up-ticket"}
+          ref={ref}
           bg="#161616"
           filter="blur(260px)"
           w="80vw"
