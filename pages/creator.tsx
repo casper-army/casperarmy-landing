@@ -20,9 +20,9 @@ import { Image, keyframes, usePrefersReducedMotion } from "@chakra-ui/react";
 
 
 const float = keyframes`
-  0%  { transform:  scale(1);  }
-  50%  { transform: scale(1.4); }
-  100% { transform: scale(1); }
+0%  { transform:scale(1); opacity: 0.6; }
+50%  { transform:  scale(1.4); opacity: 1;}
+100% { transform:  scale(1); opacity: 0.6; }
 `;
 
 
