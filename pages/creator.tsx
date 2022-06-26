@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         <PageHeader
           addon={<CreatorHeadingAddon />}
           description={
-            <>Casper Network community project that unites.<br/> DAO platform for creators and investors with a project incubation HUB Decentralized Autonomous Launchpad and Venture Capital.</>
+            <>Casper Network community project that unites.<br/> DAO platform for creators and investors with a project incubation HUB, Decentralized Autonomous Launchpad and Venture Capital.</>
           }
           label={"Welcome to #CasperArmy"}
           heading="First DAO with DAL on the Casper Network"
