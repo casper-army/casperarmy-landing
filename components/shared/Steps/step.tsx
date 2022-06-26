@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Heading, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Heading, Image, keyframes, Link, Text, usePrefersReducedMotion } from "@chakra-ui/react";
 import { FC, useCallback } from "react";
 import { ElementAssets } from "../../../config";
 import { getParallaxValue, useParallax } from "../../../hooks/useParralax";
@@ -16,6 +16,14 @@ interface IStep {
   href?: string;
   background: React.ReactNode
 }
+
+const float = keyframes`
+  0%  { opacity: 0.4; }
+  50%  {  opacity: 1;}
+  100% {  opacity: 0.4; }
+`;
+
+
 
 export const Step: FC<IStep> = ({
   reversed = false,
@@ -40,6 +48,13 @@ export const Step: FC<IStep> = ({
     }, []),
     minWindowWidth: 1000,
   });
+
+
+  const prefersReducedMotion = usePrefersReducedMotion();
+
+  const animationCards = prefersReducedMotion
+    ? undefined
+    : `${float} infinite 6s ease-out`;
 
   return (
     <Grid
@@ -106,7 +121,7 @@ export const Step: FC<IStep> = ({
         opacity={result && result.opacityValue}
       >
         <Image maxW={{base: "70vw", lg: "500px"}} transform={`rotate(${index == 1 ? "10deg" : "0deg" })`} zIndex="1" src={image} />
-        <Flex position="absolute" left="0" right="0" justify="center">{background}</Flex>
+        <Flex animation={animationCards} position="absolute" left="0" right="0" justify="center">{background}</Flex>
       </Flex>
     </Grid>
   );
