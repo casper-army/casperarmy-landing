@@ -30,7 +30,7 @@ export const Menu = () => {
           w={{ base: "100px", lg: "auto" }}
         />
       </Link>
-      <Navigation />
+      <Navigation onClose={onClose} />
       <Flex display={{ base: "none", lg: "flex" }} justify="flex-end">
         <LaunchAppDynamic />
       </Flex>

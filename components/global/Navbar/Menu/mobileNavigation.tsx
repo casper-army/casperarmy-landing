@@ -33,7 +33,7 @@ export const MobileNavigation: FC<IMobileNavigation> = ({ onClose }) => {
         </Box>
         <Image onClick={onClose} w="38px" src={IconAssets.x} />
       </Flex>
-      <Navigation mobile />
+      <Navigation onClose={onClose} mobile />
       <LaunchApp />
       <Link href="https://cspr.live/validator/020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed">
         <Image src={ElementAssets.validatorMenu} w="100%" />

@@ -9,7 +9,7 @@ import { CustomLink } from "../../shared/typography/CustomLink";
 
 export const Footer = () => {
   return (
-    <Grid mt={{ base: "20px", md: "200px" }} fontFamily="Roboto, sans-serif">
+    <Grid mt={{ base: "20px", md: "100px" }} fontFamily="Roboto, sans-serif">
       <CenterContainer>
         <Flex
           display={{ base: "flex", md: "none" }}

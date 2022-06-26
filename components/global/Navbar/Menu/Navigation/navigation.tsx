@@ -6,9 +6,10 @@ import { NavItem } from "./navItem";
 
 interface INavigation {
   mobile?: boolean;
+  onClose: () => void
 }
 
-export const Navigation: FC<INavigation> = ({ mobile }) => {
+export const Navigation: FC<INavigation> = ({ mobile, onClose}) => {
   return (
     <Flex
       fontFamily="Mulish, sans-serif"
@@ -28,12 +29,12 @@ export const Navigation: FC<INavigation> = ({ mobile }) => {
         // ":hover": { color: "red", },
       }}
     >
-      <NavItem url="/">investor</NavItem>
-      <NavItem url="/creator">creator</NavItem>
-      <NavItem url="/tickets">Call-up ticket</NavItem>
-      <NavItem url="/stake">Staking</NavItem>
-      <NavItem url="https://casperarmy.io/">Army NFT</NavItem>
-      <NavItem url="https://testnet.casper.army/">Launch App</NavItem>
+      <NavItem onClick={onClose} url="/">investor</NavItem>
+      <NavItem onClick={onClose} url="/creator">creator</NavItem>
+      <NavItem onClick={onClose} url="/tickets">Call-up ticket</NavItem>
+      <NavItem onClick={onClose} url="/stake">Staking</NavItem>
+      <NavItem onClick={onClose} url="https://casperarmy.io/">Army NFT</NavItem>
+      <NavItem onClick={onClose} url="https://testnet.casper.army/">Launch App</NavItem>
     </Flex>
   );
 };
