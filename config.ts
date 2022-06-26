@@ -74,6 +74,7 @@ export const IconAssets = {
   metamask: iconAssetsUrl("metamask.svg"),
   logOut: iconAssetsUrl("log-out.svg"),
   menuDropdown: iconAssetsUrl("menu-dropdown.svg"),
+  xCircle: iconAssetsUrl("x-circle.svg"),
 } as const;
 
 export const SocialAssets = {
