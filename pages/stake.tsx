@@ -72,26 +72,26 @@ const Home: NextPage = () => {
               question:
                 "How long after I start staking will I receive my first rewards?",
               answer:
-                "After delegating your cspr to the validator, the first rewards will be paid after about 4-6 hours",
+                "After delegating your cspr to the validator, the first rewards will be paid after about 4-6 hours.",
             },
             {
               question: "How long does unstaking take?",
-              answer: "CSPR undelegating takes 7-8 ERAs which is 14-16 hours",
+              answer: "CSPR undelegating takes 7-8 ERAs which is 14-16 hours.",
             },
 
             {
               question: "How often do I get rewards?",
-              answer: "Rewards are paid every 2 hours",
+              answer: "Rewards are paid every 2 hours.",
             },
             {
               question: "Can I delegate CSPR to more than one validator?",
               answer:
-                "Yes. You can make multiple delegations of your funds to more than one validator, or you can delegate all your funds to one",
+                "Yes. You can make multiple delegations of your funds to more than one validator, or you can delegate all your funds to one.",
             },
             {
               question: "What would happen if the validator failed?",
               answer:
-                "If the validator was inactive or failed, your funds are still under your control and it is possible to undelegate your CSPR",
+                "If the validator was inactive or failed, your funds are still under your control and it is possible to undelegate your CSPR.",
             },
 
             {
@@ -103,12 +103,12 @@ const Home: NextPage = () => {
               question:
                 "What percentage of fees does the CasperArmy validator charge?",
               answer:
-                "For example, if you stake 10,000 CSPR at an APY of 10%, you receive 1,000 CSPR per annum of which the indicated fee of 4% is 40 CSPR, meaning that your remuneration is 960 CSPR per annum",
+                "For example, if you stake 10,000 CSPR at an APY of 10%, you receive 1,000 CSPR per annum of which the indicated fee of 4% is 40 CSPR, meaning that your remuneration is 960 CSPR per annum.",
             },
             {
               question: "Could the current fee change in the future?",
               answer:
-                "There are no plans to change the fee at this time. If such a need should arise, this issue will be voted on by the CasperArmy community within the DAO in the future",
+                "There are no plans to change the fee at this time. If such a need should arise, this issue will be voted on by the CasperArmy community within the DAO in the future.",
             },
           ]}
         />
