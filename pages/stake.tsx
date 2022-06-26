@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         <PageHeader
           addon={<StakeHeadingAddon />}
           description={
-            "By staking with us and meeting additional criteria, you can count on additional benefits"
+            "By staking with us and meeting additional criteria, you can count on additional benefits."
           }
           label={"Stake your CSPR"}
           heading="Gain much more by staking CSPR with CasperArmy"
