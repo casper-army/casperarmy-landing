@@ -76,6 +76,7 @@ export const IconAssets = {
   logOut: iconAssetsUrl("log-out.svg"),
   menuDropdown: iconAssetsUrl("menu-dropdown.svg"),
   xCircle: iconAssetsUrl("x-circle.svg"),
+  lock: iconAssetsUrl("lock.svg")
 } as const;
 
 export const SocialAssets = {

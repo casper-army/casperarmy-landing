@@ -13,6 +13,7 @@ import { TicketShowcase } from "../components/pages/tickets/TicketShowcase/ticke
 import { Store } from "../components/pages/tickets/Store/store";
 import { FAQ } from "../components/shared/FAQ/faq";
 import { Layout } from "../components/layout/layout";
+import { StoreIntro } from "../components/pages/tickets/StoreIntro/storeIntro";
 
 const Tickets: NextPage = () => {
   return (
@@ -40,8 +41,9 @@ const Tickets: NextPage = () => {
       <TicketShowcase />
       <CenterContainer>
       <Countdown />
+
       </CenterContainer>
-    
+      <StoreIntro/>
       {/*<Store />*/}
       <Benefits />
       <FAQ

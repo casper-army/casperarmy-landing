@@ -18,6 +18,7 @@ export const Features = () => {
             src={EffectAssets.elipse}
             zIndex="-1"
             pos="absolute"
+            display={{base: "none", lg: "block"}}
             w="700px"
             right="-30%"
             top="-200px"
