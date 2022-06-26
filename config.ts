@@ -68,6 +68,7 @@ export const IconAssets = {
   x: iconAssetsUrl("x.svg"),
   chevronVertical: iconAssetsUrl("chevron-vertical.svg"),
   server: iconAssetsUrl("server.svg"),
+  eco_friendly: iconAssetsUrl("eco_friendly.svg"),
   alert: iconAssetsUrl("alert.svg"),
   alertTriangle: iconAssetsUrl("alert-triangle.svg"),
   casper: iconAssetsUrl("casper.svg"),
