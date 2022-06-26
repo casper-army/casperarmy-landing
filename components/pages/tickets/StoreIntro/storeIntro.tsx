@@ -21,13 +21,11 @@ export const StoreIntro = () => {
         overflowX="auto"
         padding="0px 20px"
         pb="40px"
-		sx={
-			{ 
-		   '::-webkit-scrollbar':{
-				  display:'none'
-			  }
-		   }
-		 }
+        sx={{
+          "::-webkit-scrollbar": {
+            display: "none",
+          },
+        }}
       >
         <RoundItem index={1} price={50} percent={75} max={2000} />
         <RoundItem index={2} price={125} percent={65} max={1000} />
