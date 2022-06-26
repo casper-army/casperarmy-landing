@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         <PageHeader
           addon={<StakeHeadingAddon />}
           description={
-            "By staking with us and meeting additional criteria, you can count on additional benefits"
+            "By staking with us and meeting additional criteria, you can count on additional benefits."
           }
           label={"Stake your CSPR"}
           heading="Gain much more by staking CSPR with CasperArmy"
@@ -72,43 +72,43 @@ const Home: NextPage = () => {
               question:
                 "How long after I start staking will I receive my first rewards?",
               answer:
-                "After delegating your cspr to the validator, the first rewards will be paid after about 4-6 hours",
+                "After delegating your cspr to the validator, the first rewards will be paid after about 4-6 hours.",
             },
             {
               question: "How long does unstaking take?",
-              answer: "CSPR undelegating takes 7-8 ERAs which is 14-16 hours",
+              answer: "CSPR undelegating takes 7-8 ERAs which is 14-16 hours.",
             },
 
             {
               question: "How often do I get rewards?",
-              answer: "Rewards are paid every 2 hours",
+              answer: "Rewards are paid every 2 hours.",
             },
             {
               question: "Can I delegate CSPR to more than one validator?",
               answer:
-                "Yes. You can make multiple delegations of your funds to more than one validator, or you can delegate all your funds to one",
+                "Yes. You can make multiple delegations of your funds to more than one validator, or you can delegate all your funds to one.",
             },
             {
               question: "What would happen if the validator failed?",
               answer:
-                "If the validator was inactive or failed, your funds are still under your control and it is possible to undelegate your CSPR",
+                "If the validator was inactive or failed, your funds are still under your control and it is possible to undelegate your CSPR.",
             },
 
             {
               question: "Where is the CasperArmy validator server located?",
               answer:
-                "The validator server is located in Germany. You can read more about it on the validator website which you can find a link to above",
+                "The validator server is located in Germany. You can read more about it on the validator website which you can find a link to above.",
             },
             {
               question:
                 "What percentage of fees does the CasperArmy validator charge?",
               answer:
-                "For example, if you stake 10,000 CSPR at an APY of 10%, you receive 1,000 CSPR per annum of which the indicated fee of 4% is 40 CSPR, meaning that your remuneration is 960 CSPR per annum",
+                "For example, if you stake 10,000 CSPR at an APY of 10%, you receive 1,000 CSPR per annum of which the indicated fee of 4% is 40 CSPR, meaning that your remuneration is 960 CSPR per annum.",
             },
             {
               question: "Could the current fee change in the future?",
               answer:
-                "There are no plans to change the fee at this time. If such a need should arise, this issue will be voted on by the CasperArmy community within the DAO in the future",
+                "There are no plans to change the fee at this time. If such a need should arise, this issue will be voted on by the CasperArmy community within the DAO in the future.",
             },
           ]}
         />

@@ -29,7 +29,7 @@ export const StartStaking = () => {
             contribute to the degradation of the natural environment in which we
             live and will live for generations to come. The choice of the Casper
             Network was obvious, Casper Network is one of the most{" "}
-            <Text display="inline" color="white" textDecoration="underline">
+            <Text display="inline" color="white">
               energy-efficient blockchains
             </Text>{" "}
             and continues to improve its technology in this regard.

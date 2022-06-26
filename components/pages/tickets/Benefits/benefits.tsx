@@ -15,27 +15,27 @@ const benefitList: Benefit[] = [
   {
     title: "Access & Membership",
     description:
-      "Gain access to a creative platform. in combination with staking, you’re entitled to use all the tools of the CasperArmy platform",
+      "Gain access to a creative platform. In combination with staking, you’re entitled to use all the tools of the CasperArmy platform.",
   },
   {
     title: "Allocation",
     description:
-      "Guarantees allocation in future projects incubated on the platform",
+      "Guarantees allocation in future projects incubated on the platform.",
   },
   {
     title: "More points",
     description:
-      "Each ticket is assigned a fixed amount of points. Increase your points by buying more tickets",
+      "Each ticket is assigned a fixed amount of points. Increase your points by buying more tickets.",
   },
   {
     title: "CasperArmy NFT",
     description:
-      "Members wil have the chance to win CasperArmy NFTs. Ticket holders will have access to our NFT sale",
+      "Members wil have the chance to win CasperArmy NFTs. Ticket holders will have access to our NFT sale.",
   },
   {
     title: "DAO Governance",
     description:
-      "Your ticket gives you a vote in decisions regarding the development of the platform and products incubated on it",
+      "Your ticket gives you a vote in decisions regarding the development of the platform and projects we incubate.",
   },
 ];
 

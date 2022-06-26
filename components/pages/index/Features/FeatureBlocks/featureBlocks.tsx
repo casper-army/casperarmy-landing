@@ -25,7 +25,7 @@ export const FeatureBlocks = () => {
       <GridItem display="grid" gridArea="a">
         <Block
           label={"INCUBATION HUB"}
-          heading={"Collaboration & entrepreneurship hub"}
+          heading={"Collaboration & entrepreneurship HUB"}
           href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.4%20Incubation%20HUB"
           bigImage
           image={BrandAssets.computer}

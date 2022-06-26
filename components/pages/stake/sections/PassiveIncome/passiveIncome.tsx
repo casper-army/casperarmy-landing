@@ -9,7 +9,7 @@ export const PassiveIncome = () => {
   return (
     <Grid gridGap={{ base: "16px", md: "24px" }}>
       <CustomHeader>
-        Your funds are working 24h a day, earn a passive income
+        Earn a passive income around the clock
       </CustomHeader>
       <Paragraph>
         Our validator has been established to support the decentralisation of
@@ -29,19 +29,23 @@ export const PassiveIncome = () => {
             </Text>
           </Paragraph>
           <Paragraph>
-            1. Receive points to gain better opportunities for purchasing new
-            CasperArmy products, such as CasperArmyNFT
+            1. Receive <Text display="inline" color="white">
+              points
+            </Text> to gain better opportunities for purchasing new
+            CasperArmy products, such as CasperArmyNFT.
           </Paragraph>
           <Paragraph>
-            2. Gain a voice in the DAO on the direction of development of the
-            CasperArmy platform and the projects incubated on it
+            2. Gain a voice in the {" "}
+            <Text display="inline" color="white">
+              DAO
+            </Text> on the direction of development of the
+            CasperArmy platform and the projects incubated on it.
           </Paragraph>
           <Paragraph>
             3. Opportunities to invest in projects development to developed by third-party
-            creators that have been previously vetted and voted on by the DAO -
-            within{" "}
+            creators that have been previously vetted and voted on by the DAO - within{" "}
             <Text display="inline" color="white">
-              Venture Capital
+              Venture Capital.
             </Text>
           </Paragraph>
           <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.9-staking">

@@ -76,7 +76,7 @@ export const Footer = () => {
               withoutUnderline
               href="https://docs.casperarmy.org/docs/what-is-casperarmy/1.1-Description"
             >
-              About casperarmy
+              About CasperArmy
             </CustomLink>
             <CustomLink
               withoutUnderline
