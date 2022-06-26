@@ -36,7 +36,7 @@ const Home: NextPage = () => {
     : `${float} infinite 6s ease-out`;
 
   return (
-    <Flex flexDir="column" alignItems="center" zIndex="2000" position="relative">
+    <Flex flexDir="column" alignItems="center" zIndex="1" position="relative">
       <CenterContainer>
         <Box pos="relative" zIndex="-20">
           <Box
