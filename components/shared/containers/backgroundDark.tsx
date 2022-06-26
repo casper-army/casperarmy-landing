@@ -9,6 +9,7 @@ export const BackgroundDark = ({ children }: any) => {
       borderTopWidth="1px"
       borderBottomWidth="1px"
 	    justifyContent="center"
+      position="relative"
       zIndex="10"
     >
       {children}

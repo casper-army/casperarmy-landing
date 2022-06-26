@@ -2,8 +2,6 @@ import type { NextPage } from "next";
 import { Flex, Box } from "@chakra-ui/layout";
 import { CenterContainer } from "../components/shared/containers/centerContainer";
 import React from "react";
-import { Navbar } from "../components/global/Navbar/navbar";
-import { Footer } from "../components/global/Footer/footer";
 import { PageHeader } from "../components/shared/PageHeader";
 import {
   IndexHeadingAddon,

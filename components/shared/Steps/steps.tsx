@@ -16,6 +16,7 @@ export interface StepItem {
   soon: boolean;
   reversed: boolean;
   href: string
+  background: React.ReactNode
 }
 
 interface ISteps {
@@ -72,6 +73,7 @@ export const Steps: FC<ISteps> = ({ stepList }) => {
                 soon={step.soon}
                 key={step.index}
                 href={step.href}
+                background={step.background}
               />
             );
           })}

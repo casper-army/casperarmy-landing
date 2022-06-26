@@ -9,8 +9,10 @@ export const CountdownButtons = () => {
       height={{ base: "50px", md: "70px" }}
       gridGap={{ base: "9px", md: "13px" }}
       fontSize={{ base: "12px", md: "13px" }}
+      position="relative"
+      zIndex="0"
     >
-      <Link href="/tickets" display="grid">
+      <Link href="/tickets" display="grid" position="relative" zIndex="10">
         <Flex
           border="2px solid white"
           padding={{ base: "0px 10px", md: "0px 80px" }}

@@ -16,8 +16,24 @@ import {
 import { Features } from "../components/pages/index/Features/features";
 import { CreatorFeatures } from "../components/pages/index/Features/creatorFeatures";
 import { Layout } from "../components/layout/layout";
+import { Image, keyframes, usePrefersReducedMotion } from "@chakra-ui/react";
+
+
+const float = keyframes`
+  0%  { transform: translateY(0px) scale(1);  }
+  50%  { transform: translateY(-30px) scale(2); }
+  100% { transform: translateY(0px)  scale(1); }
+`;
+
 
 const Home: NextPage = () => {
+
+  const prefersReducedMotion = usePrefersReducedMotion();
+
+  const animationCards = prefersReducedMotion
+    ? undefined
+    : `${float} infinite 6s ease-out`;
+
   return (
     <Flex  flexDir="column" alignItems="center">
       <CenterContainer>
@@ -29,8 +45,9 @@ const Home: NextPage = () => {
             right="0%"
             boxSize={{ base: "200px", md: "400px" }}
             top="0px"
-            transform="translate( 70%, 30%)"
+            transform="translate(70%, 30%)"
             filter={{ base: "blur(80px)", md: "blur(160px)" }}
+            animation={animationCards}
           />
         </Box>
       
@@ -45,7 +62,7 @@ const Home: NextPage = () => {
           heading="First DAO with DAL on the Casper Network"
         />
 
-        <Box pos="relative">
+        <Box pos="relative" zIndex="-20">
           <Box
             bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%);"
             zIndex="-20"
@@ -55,6 +72,8 @@ const Home: NextPage = () => {
             bottom="0px"
             transform="translate(-40%, -0%)"
             filter={{ base: "blur(80px)", md: "blur(160px)" }}
+            animation={animationCards}
+
           />
         </Box>
       </CenterContainer>
@@ -73,6 +92,7 @@ const Home: NextPage = () => {
               soon: false,
               reversed: false,
               href: "/tickets",
+              background: <Image filter={"blur(35px)"} src={ElementAssets.tickets} transform="rotate(-10deg)"/>
             },
             {
               content:
@@ -85,6 +105,12 @@ const Home: NextPage = () => {
               soon: true,
               reversed: true,
               href: "",
+              background: <Box>
+                
+                <Box bg="#FF0202 " boxSize="170px" transform="translate(-200px, 50px)" filter="blur(180px)"></Box>
+                <Box bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%)" boxSize="170px" transform="translate(-200px, 200px)" filter="blur(180px)"></Box>
+                <Box bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%)" boxSize="170px" transform="translate(200px, -200px)" filter="blur(180px)"></Box>
+              </Box>
             },
             {
               content:
@@ -97,6 +123,7 @@ const Home: NextPage = () => {
               soon: true,
               reversed: false,
               href: "",
+              background: <></>
             },
           ]}
         />

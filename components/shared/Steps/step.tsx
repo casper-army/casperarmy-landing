@@ -14,6 +14,7 @@ interface IStep {
   soon?: boolean;
   image: string;
   href?: string;
+  background: React.ReactNode
 }
 
 export const Step: FC<IStep> = ({
@@ -26,6 +27,7 @@ export const Step: FC<IStep> = ({
   buttonText,
   image,
   href,
+  background
 }) => {
   const { ref, result } = useParallax({
     onScroll: useCallback((percentage) => {
@@ -94,14 +96,17 @@ export const Step: FC<IStep> = ({
       </Flex>
       <Flex
         gridArea="a"
-        justifyContent={reversed ? "flex-start" : "flex-end"}
+        justifyContent={{base: "center", lg: reversed ? "flex-start" : "flex-end"}}
         align="center"
+
+        position="relative"
         transform={`translateX(${
           result && (reversed ? -result?.moveValue : result?.moveValue)
         }px)`}
         opacity={result && result.opacityValue}
       >
-        <Image src={image} />
+        <Image maxW={{base: "70vw", lg: "500px"}} transform={`rotate(${index == 1 ? "10deg" : "0deg" })`} zIndex="1" src={image} />
+        <Flex position="absolute" left="0" right="0" justify="center">{background}</Flex>
       </Flex>
     </Grid>
   );

@@ -123,8 +123,11 @@ export const LaunchApp = () => {
                 action={async () => {
                   if (typeof window !== "undefined") {
                     try {
-                      if (!state) {
-                        await window.casperlabsHelper.requestConnection();
+                      window.casperlabsHelper.requestConnection();
+                      const isConnected = await window.casperlabsHelper.isConnected();
+
+                      if (!state && isConnected) {
+                        console.log(await window.casperlabsHelper);
                         setState(
                           await window.casperlabsHelper.getActivePublicKey()
                         );

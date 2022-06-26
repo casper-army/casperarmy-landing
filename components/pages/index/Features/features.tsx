@@ -13,7 +13,7 @@ import { EffectAssets } from "../../../../config";
 export const Features = () => {
   return (
     <BackgroundDark>
-      <Box pos="relative">
+      <Box pos="relative" zIndex="-20">
           <Image
             src={EffectAssets.elipse}
             zIndex="-1"

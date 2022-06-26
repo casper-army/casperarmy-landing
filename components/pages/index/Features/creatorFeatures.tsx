@@ -14,15 +14,16 @@ import { CreatorFeatureBlocks } from "./FeatureBlocks/creatorFeatureBlocks";
 export const CreatorFeatures = () => {
   return (
     <BackgroundDark>
-      <Box pos="relative">
+      <Box pos="relative" zIndex="-20">
         <Image
           src={EffectAssets.elipse}
-          zIndex="-1"
+          
           pos="absolute"
           w="700px"
           right="-30%"
           top="-200px"
           transform="rotate(20deg), translateY(-50%)"
+          zIndex="0"
           filter="blur(180px)"
         />
       </Box>
