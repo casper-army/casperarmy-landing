@@ -97,7 +97,7 @@ const Home: NextPage = () => {
             {
               question: "Where is the CasperArmy validator server located?",
               answer:
-                "The validator server is located in Germany. You can read more about it on the validator website which you can find a link to above",
+                "The validator server is located in Germany. You can read more about it on the validator website which you can find a link to above.",
             },
             {
               question:
