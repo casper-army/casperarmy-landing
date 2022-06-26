@@ -15,7 +15,7 @@ const benefitList: Benefit[] = [
   {
     title: "Access & Membership",
     description:
-      "Gain access to a creative platform. in combination with staking, you’re entitled to use all the tools of the CasperArmy platform.",
+      "Gain access to a creative platform. In combination with staking, you’re entitled to use all the tools of the CasperArmy platform.",
   },
   {
     title: "Allocation",
@@ -35,7 +35,7 @@ const benefitList: Benefit[] = [
   {
     title: "DAO Governance",
     description:
-      "Your ticket gives you a vote in decisions regarding the development of the platform and products incubated on it.",
+      "Your ticket gives you a vote in decisions regarding the development of the platform and projects we incubate.",
   },
 ];
 
