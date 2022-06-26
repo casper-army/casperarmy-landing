@@ -15,7 +15,7 @@ export const CornerLinks = () => {
       gridGap="20px"
       align="center"
     >
-      <Link href="https://litepaper.casperarmy.io">NFT LITEPAPER</Link>
+      <Link href="https://litepaper.casperarmy.io">ARMY NFT LITEPAPER</Link>
       <CornerDot />
       <Link href="https://docs.casperarmy.org/docs/point-system/3.2-Soldier-Rating">
         HOW TO EARN POINTS?
