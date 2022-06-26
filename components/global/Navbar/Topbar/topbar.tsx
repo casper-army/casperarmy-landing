@@ -33,7 +33,7 @@ export const Topbar = () => {
             fontFamily="Changa"
             fontSize="12px"
           >
-            JOIN OUR COMMUNITY AND &nbsp;
+            JOIN OUR COMMUNITY AND&nbsp;
             <Box fontWeight="bold">EARN EXTRA POINTS!</Box>
           </Flex>
           <Socials />
