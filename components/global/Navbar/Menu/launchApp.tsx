@@ -116,7 +116,7 @@ export const LaunchApp = () => {
                 Select your wallet
               </Text>
 
-              <Text fontSize="16px" maxW="350px">
+              <Text fontSize="16px" maxW="350px" color="#747474">
                 Connect with one of our available wallet or create and connect a
                 new wallet.
               </Text>
