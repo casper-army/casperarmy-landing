@@ -22,6 +22,7 @@ export const Menu = () => {
       padding={{ base: "30px 20px", md: "30px 0px", lg: "0px 0px" }}
       alignItems="center"
       zIndex="10"
+      position="relative"
     >
       <Link href="/">
         <Image

@@ -22,9 +22,9 @@ import { keyframes } from "@emotion/react";
 import { usePrefersReducedMotion } from "@chakra-ui/react";
 
 const float = keyframes`
-  0%  { transform: translateY(0px) scale(1);  }
-  50%  { transform: translateY(-30px) scale(1.4); }
-  100% { transform: translateY(0px)  scale(1); }
+  0%  { transform:scale(1);  }
+  50%  { transform:  scale(1.4); }
+  100% { transform:  scale(1); }
 `;
 
 const Home: NextPage = () => {
@@ -38,15 +38,15 @@ const Home: NextPage = () => {
   return (
     <Flex flexDir="column" alignItems="center" zIndex="1" position="relative">
       <CenterContainer>
-        <Box pos="relative" zIndex="-20">
-          <Image
-             src={EffectAssets.elipse}
+        <Box pos="relative" zIndex="0">
+          <Box
+            bg="linear-gradient(90.57deg, #1AC9E6 41.85%, #8D5DF7 49.85%, #3C91FF 57.06%)"
             zIndex="-20"
             pos="absolute"
-            right="0%"
+            right="-25%"
             boxSize={{ base: "200px", md: "400px" }}
             top="0px"
-            transform="translate( 30%, 30%)"
+            transform="translate( 50%, 50%)"
             filter={{ base: "blur(80px)", md: "blur(160px)" }}
             animation={animationCards}
           />
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
             
             pos="absolute"
             w="700px"
-            left="-30%"
+            left="-25%"
             top="-400px"
             transform="rotate(20deg), translateY(-50%)"
             zIndex="0"

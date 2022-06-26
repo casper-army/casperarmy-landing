@@ -20,9 +20,9 @@ import { Image, keyframes, usePrefersReducedMotion } from "@chakra-ui/react";
 
 
 const float = keyframes`
-  0%  { transform: translateY(0px) scale(1);  }
-  50%  { transform: translateY(-30px) scale(2); }
-  100% { transform: translateY(0px)  scale(1); }
+  0%  { transform:  scale(1);  }
+  50%  { transform: scale(1.4); }
+  100% { transform: scale(1); }
 `;
 
 
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%);"
             zIndex="-20"
             pos="absolute"
-            right="0%"
+            right="-35%"
             boxSize={{ base: "200px", md: "400px" }}
             top="0px"
             transform="translate(70%, 30%)"
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
             bg="linear-gradient(180deg, #2502FF 0%, #FF0202 100%);"
             zIndex="-20"
             pos="absolute"
-            left="0%"
+            left="-25%"
             boxSize={{ base: "200px", md: "400px" }}
             bottom="0px"
             transform="translate(-40%, -0%)"

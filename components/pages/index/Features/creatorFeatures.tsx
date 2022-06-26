@@ -17,7 +17,7 @@ export const CreatorFeatures = () => {
       <Box pos="relative" zIndex="-20">
         <Image
           src={EffectAssets.elipse}
-          
+          display={{base: "none", lg: "block"}}
           pos="absolute"
           w="700px"
           right="-30%"
