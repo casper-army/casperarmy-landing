@@ -49,7 +49,7 @@ const Tickets: NextPage = () => {
           {
             question: "How long will ticket sales last?",
             answer:
-              "Ticket sale time is not limited. Tickets will be on sale until the ticket pool is exhausted. You will be able to track the number of available tickets on the ticket purchasing platform",
+              "Ticket sale time is not limited. Tickets will be on sale until the ticket pool is exhausted. You will be able to track the number of available tickets on the ticket purchasing platform.",
           },
           {
             question: "Why is a CasperArmy ticket required?",
