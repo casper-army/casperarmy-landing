@@ -54,36 +54,36 @@ const Tickets: NextPage = () => {
           {
             question: "Why is a CasperArmy ticket required?",
             answer:
-              "The ticket is the basic key to access the resources of the CasperArmy platform. Only ticket holders will have unlocked platform functionalities, i.e. the ability to participate in Venture Capital investments of incubated projects, or will be able to participate in airdrop and purchase CasperArmyNFT and many others",
+              "The ticket is the basic key to access the resources of the CasperArmy platform. Only ticket holders will have unlocked platform functionalities, i.e. the ability to participate in Venture Capital investments of incubated projects, or will be able to participate in airdrop and purchase CasperArmyNFT and many others.",
           },
 
           {
             question:
               "I have a ticket from round one. Is it different from a ticket from another round?",
             answer:
-              "Each ticket is the same and is assigned the same number of points. The only difference is the price - the earlier the round of ticket purchase the lower the price",
+              "Each ticket is the same and is assigned the same number of points. The only difference is the price - the earlier the round of ticket purchase the lower the price.",
           },
           {
             question:
               "How many tickets can I purchase? Can I resell my ticket?",
             answer:
-              "Each user can purchase a maximum of 10 tickets. Tickets are transferable, i.e., you can resell them to another user",
+              "Each user can purchase a maximum of 10 tickets. Tickets are transferable, i.e., you can resell them to another user.",
           },
           {
             question: "What if not all tickets are sold?",
             answer:
-              "The quantity of tickets sold does not affect the timing of the launch of the platform and the sale of CasperArmyNFT",
+              "The quantity of tickets sold does not affect the timing of the launch of the platform and the sale of CasperArmyNFT.",
           },
           {
             question: "Why is a round six ticket so expensive?",
             answer:
-              "The first five rounds of ticket sales are priced below the regular price. The quantity of tickets in round six is unlimited",
+              "The first five rounds of ticket sales are priced below the regular price. The quantity of tickets in round six is unlimited.",
           },
 
           {
             question: "What are points and how do they relate to tickets?",
             answer:
-              "Points are an indicator of your commitment to the CasperArmy community. You can earn points in many different areas, one of which is having a ticket to which permanent points are assigned. You can find more information in our docs under ”points”",
+              "Points are an indicator of your commitment to the CasperArmy community. You can earn points in many different areas, one of which is having a ticket to which permanent points are assigned. You can find more information in our docs under ”points”.",
           },
           {
             question:
