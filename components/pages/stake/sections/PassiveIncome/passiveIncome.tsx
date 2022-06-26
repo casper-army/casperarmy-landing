@@ -29,19 +29,24 @@ export const PassiveIncome = () => {
             </Text>
           </Paragraph>
           <Paragraph>
-            1. Receive points to gain better opportunities for purchasing new
-            CasperArmy products, such as CasperArmyNFT
+            1. Receive <Text display="inline" color="white">
+              points
+            </Text> to gain better opportunities for purchasing new
+            CasperArmy products, such as CasperArmyNFT.
           </Paragraph>
           <Paragraph>
             2. Gain a voice in the DAO on the direction of development of the
-            CasperArmy platform and the projects incubated on it
+            CasperArmy platform and the projects incubated on it.
           </Paragraph>
           <Paragraph>
             3. Opportunities to invest in projects development to developed by third-party
-            creators that have been previously vetted and voted on by the DAO -
+            creators that have been previously vetted and voted on by the within{" "}
+            <Text display="inline" color="white">
+              DAO
+            </Text> -
             within{" "}
             <Text display="inline" color="white">
-              Venture Capital
+              Venture Capital.
             </Text>
           </Paragraph>
           <Link href="https://docs.casperarmy.org/docs/PRODUCTS%20AND%20SERVICES/2.9-staking">
