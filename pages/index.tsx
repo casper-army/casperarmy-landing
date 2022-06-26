@@ -36,16 +36,16 @@ const Home: NextPage = () => {
     : `${float} infinite 6s ease-out`;
 
   return (
-    <Flex flexDir="column" alignItems="center" zIndex="1" position="relative">
+    <Flex flexDir="column" alignItems="center" zIndex="2000" position="relative">
       <CenterContainer>
-        <Box pos="relative" zIndex="0">
+        <Box pos="relative" zIndex="-20">
           <Box
             bg="linear-gradient(90.57deg, #1AC9E6 41.85%, #8D5DF7 49.85%, #3C91FF 57.06%)"
             zIndex="-20"
             pos="absolute"
             right="-25%"
             boxSize={{ base: "200px", md: "400px" }}
-            top="0px"
+            top="20vh"
             transform="translate( 50%, 50%)"
             filter={{ base: "blur(80px)", md: "blur(160px)" }}
             animation={animationCards}
