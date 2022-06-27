@@ -3,7 +3,7 @@ import { IconAssets } from "../../../config";
 
 export const ChatButton = () => {
   return (
-    <Link href="mailto:headquarter@casperarmy.org">
+    <Link href="mailto:headquarters@casperarmy.org">
       <Flex
         mt="40px"
         padding={{ md: "10px 15px", lg: "18px 35px" }}
