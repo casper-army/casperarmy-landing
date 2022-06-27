@@ -8,7 +8,7 @@ export const CreatorFeatureBlocks = () => {
   return (
     <Grid
       minH="800px"
-      maxH={{ base: "auto", md: "800px" }}
+      maxH={{ base: "auto", xl: "800px" }}
       mt="20px"
       gridTemplateAreas={{
         base: "'a' 'b' 'c' 'd' 'e' 'f'",
