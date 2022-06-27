@@ -6,9 +6,17 @@ import { Navbar } from "../components/global/Navbar/navbar";
 import "regenerator-runtime/runtime";
 import { ThirdwebWeb3Provider } from "@3rdweb/hooks";
 import Script from "next/script";
+import { hotjar } from 'react-hotjar'
+import { useEffect } from "react";
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   const getLayout = (Component as any).getLayout || ((page: any) => page);
+
+    useEffect(() => {
+      hotjar.initialize(3040506, 6)
+    }, [])
+
 
   const theme = extendTheme({
     fonts: {
