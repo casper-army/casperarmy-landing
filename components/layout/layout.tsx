@@ -9,7 +9,9 @@ export const Layout = ({ children }: any) => {
   return (
     <>
       <Head>
-        <title>CasperArmy</title>
+        <meta property="og:title" content="CasperArmy" key="title" />
+        <meta name="description" content="Casper Network community project that unites. DAO platform for creators and investors with a project incubation HUB, Decentralized Autonomous Launchpad and Venture Capital."/>
+        
       </Head>
       <Flex
         overflowX="hidden"
