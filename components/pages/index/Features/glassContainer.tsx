@@ -1,12 +1,7 @@
 import { Grid } from "@chakra-ui/layout";
-import { FC } from "react";
 
-interface IGlassContainer {
-  onClick: () => void;
-  children: React.ReactNode;
-}
 
-export const GlassContainer: FC<IGlassContainer> = ({ onClick, children }) => {
+export const GlassContainer = ({ onClick, children } : {onClick: () => void, children : React.ReactNode}) => {
   return (
     <Grid
       onClick={onClick}
