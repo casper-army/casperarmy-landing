@@ -7,13 +7,14 @@ import { CountdownButtons } from "./countdownButtons";
 
 export const Countdown = () => {
   return (
-    <>
+    <div  id="newsletter">
       <Flex
         display={{ base: "flex", md: "none" }}
         justify="center"
         padding="60px 0px"
         zIndex="40"
         position="relative"
+       
       >
         <Image src={ElementAssets.web3SpinnerTransparent} position="absolute" left="0" top="50%"></Image>
       </Flex>
@@ -120,6 +121,6 @@ export const Countdown = () => {
           </Flex>
         </GridItem>
       </Grid>
-    </>
+    </div>
   );
 };

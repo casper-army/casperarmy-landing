@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { BrandAssets } from "../../../config";
 import { CenterContainer } from "../../shared/containers/centerContainer";
@@ -45,15 +45,18 @@ export const Footer = () => {
               Sign up and stay up to date on Incubated projects, DAO, VC
               investments and news
             </Text>
-            <Text
-              padding="20px 0px"
+            <Link
+              padding="12px 0px"
               fontWeight="bold"
-              color="gray"
+              color="white"
+              bg="#FF0202"
               borderRadius="4px"
+              maxW="200px"
               textTransform="uppercase"
+              href="#newsletter" textAlign="center"
             >
-              Form in maintenance
-            </Text>
+              Sign up
+            </Link>
           </Flex>
           <Flex flexDir="column" gridGap="10px" alignItems="inherit">
             <SmallHeader>Support</SmallHeader>
