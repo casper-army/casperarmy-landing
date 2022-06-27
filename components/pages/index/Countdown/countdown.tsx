@@ -28,13 +28,14 @@ export const Countdown = () => {
         <Image
           pos="absolute"
           src={ElementAssets.ticketBackground}
-          maxW="100px"
+          maxW="500px"
           bottom={{ base: "-20%", md: "-10%" }}
           zIndex={{ base: "1", md: "0" }}
           left={{ base: "-50%", md: "-5%" }}
         />
         <Image
           pos="absolute"
+          maxW="500px"
           src={ElementAssets.ticketBackground}
           top="0"
           right={{ base: "-40%", md: "-5%" }}
@@ -44,6 +45,7 @@ export const Countdown = () => {
           pos="absolute"
           src={ElementAssets.ticketCorner}
           zIndex="1"
+          maxW="500px"
           top="-100px"
           right={{ base: "-40%", md: "-5%" }}
         />
@@ -53,8 +55,9 @@ export const Countdown = () => {
           zIndex="1"
           display={{ base: "none", xl: "block" }}
           top="50%"
+          maxW="200px"
           left="0%"
-          transform="translate(-0%, -50%)"
+          transform="translate(25%, -50%)"
         />
         <Image
           pos="absolute"
