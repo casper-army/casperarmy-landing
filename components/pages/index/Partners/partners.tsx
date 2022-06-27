@@ -59,8 +59,8 @@ export const Partners = () => {
       <Marquee gradient={false}>
         {partnersList.map((partner) => {
           return (
-            <Box>
-              <Link key={partner.key} href={partner.url}>
+            <Box  key={partner.key}>
+              <Link href={partner.url}>
                 <Image margin={{base: "0px 30px", md: "0px 50px", lg: "0px 100px"}} cursor="pointer" src={partner.image} />
               </Link>
             </Box>
