@@ -21,7 +21,7 @@ export const HeaderButton: FC<IHeaderButton> = ({
       textTransform="uppercase"
       fontFamily="Sora, sans-serif"
       fontWeight="bold"
-      justify={singleItem ? "center" : "space-between"}
+      justify={{base: "center", md:(singleItem ? "center" : "space-between")}}
       color="white"
       lineHeight="100%"
       align="center"
@@ -35,6 +35,7 @@ export const HeaderButton: FC<IHeaderButton> = ({
         backgroundColor: "#FF0202",
         textDecoration: 'none'
       }}
+      gap="10px"
       textDecoration="none"
     >
       {children}

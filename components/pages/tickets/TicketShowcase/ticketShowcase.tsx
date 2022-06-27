@@ -21,9 +21,15 @@ export const TicketShowcase = () => {
 
   return (
     <CenterContainer>
+      <Flex flexDir="column" align="center" pos="absolute" w="40px" left="0" right="0"  top={{base: "-60px", md: "-140px"}} margin="auto" gap="4px">
+        <Box w="2px" h="40px" bg="linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)" opacity="0.5"></Box>
+        <Box fontFamily="Changa" letterSpacing="0.37em" fontSize="12px" lineHeight="140%">SCROLL</Box>
+        <Box w="2px" h="100px" bg="linear-gradient(180deg, #28BFD5 0%, #5F59F9 100%)" opacity="0.5"></Box>
+      </Flex>
       <Flex
         justify="center"
         mb="100px"
+
         position="relative"
         opacity={`${result && result.opacityValue}`}
         transform={`translateY(${result && result.slideValue}px)`}

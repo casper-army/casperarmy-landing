@@ -46,6 +46,7 @@ export const Countdown = () => {
           src={ElementAssets.ticketCorner}
           zIndex="1"
           maxW="500px"
+          display={{base: "none", md: "block"}}
           top="-100px"
           right={{ base: "-40%", md: "-5%" }}
         />

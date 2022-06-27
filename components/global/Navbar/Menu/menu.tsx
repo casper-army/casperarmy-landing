@@ -22,6 +22,7 @@ export const Menu = () => {
       padding={{ base: "30px 20px", md: "30px 0px", lg: "0px 0px" }}
       alignItems="center"
       zIndex="1000"
+      w={{base: "90vw", md: "auto"}}
       position="relative"
     >
       <Link href="/">
