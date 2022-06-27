@@ -10,9 +10,8 @@ export const IndexHeading = () => (
     <br /> DAO on the{" "}
     <span
       style={{
-        fontSize: "110%",
-        WebkitTextStroke: "1px red",
-        color: "transparent",
+        fontSize: "100%",
+        color: "#FF0202",
       }}
     >
       Casper
