@@ -25,7 +25,10 @@ export const Footer = () => {
             fontWeight="bold"
             borderRadius="5px"
           >
+            <Link href="#newsletter">
             Newsletter
+            </Link>
+          
           </Box>
         </Flex>
         <Grid
