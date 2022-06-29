@@ -30,7 +30,7 @@ const topbarSocials = [
 
 export const Socials = () => {
   return (
-    <Flex gridGap="20px">
+    <Flex gridGap="20px" filter="brightness(6)">
       {topbarSocials.map((el) => {
         return (
           <Link key={el.key} href={el.url}>

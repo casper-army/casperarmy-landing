@@ -7,6 +7,16 @@ import Marquee from "react-fast-marquee";
 
 const partnersList = [
   {
+    key: "casper blockchain",
+    image: PartnerAssets.casperblockchain,
+    url: PartnerUrls.casperblockchain,
+  },
+  {
+    key: "awesome casper",
+    image: PartnerAssets.awesomecasper,
+    url: PartnerUrls.awesomecasper,
+  },
+  {
     key: "dotoracle",
     image: PartnerAssets.dotOracle,
     url: PartnerUrls.dotOracle,
@@ -23,16 +33,8 @@ const partnersList = [
     image: PartnerAssets.csprPl,
     url: PartnerUrls.csprPl,
   },
-  {
-    key: "awesome casper",
-    image: PartnerAssets.awesomecasper,
-    url: PartnerUrls.awesomecasper,
-  },
-  {
-    key: "casper blockchain",
-    image: PartnerAssets.casperblockchain,
-    url: PartnerUrls.casperblockchain,
-  },
+  
+
 ];
 
 export const Partners = () => {
@@ -57,15 +59,16 @@ export const Partners = () => {
       }}
     >
       <Marquee gradient={false}>
-        {partnersList.map((partner) => {
+        {partnersList.concat(partnersList).map((partner) => {
           return (
             <Box  key={partner.key}>
               <Link href={partner.url}>
-                <Image margin={{base: "0px 30px", md: "0px 50px", lg: "0px 100px"}} cursor="pointer" src={partner.image} />
+                <Image margin={{base: "0px 30px", md: "0px 50px", lg: "0px 50px"}} cursor="pointer" src={partner.image} />
               </Link>
             </Box>
           );
         })}
+        
       </Marquee>
     </Flex>
   );
