@@ -5,6 +5,7 @@ body {
   color: black;
   background-color: #161616;
   font-family: Changa, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
