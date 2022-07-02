@@ -48,6 +48,7 @@ export const LaunchApp = () => {
   };
 
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { isOpen : isOpenTwo, onOpen : onOpenTwo, onClose :onCloseTwo} = useDisclosure();
 
   return (
     <>
@@ -110,7 +111,7 @@ export const LaunchApp = () => {
                 fontSize="8px"
                 fontFamily="Chaney"
               >
-                CasperArmy
+                #CasperArmy
               </Box>
               <Text fontWeight="800" fontSize="30px">
                 Select your wallet
@@ -127,22 +128,28 @@ export const LaunchApp = () => {
                   icon={IconAssets.casper}
                   action={async () => {
                     if (typeof window !== "undefined") {
-                      try {
-                        window.casperlabsHelper.requestConnection();
-                        const isConnected =
-                          await window.casperlabsHelper.isConnected();
-
-                        if (!state && isConnected) {
-                          console.log(await window.casperlabsHelper);
-                          setState(
-                            await window.casperlabsHelper.getActivePublicKey()
-                          );
-                          setWalletType(WalletTypes.CASPER_SIGNER);
-                          onClose();
+                      if(await window.casperlabsHelper) {
+                        try {
+                          window.casperlabsHelper.requestConnection();
+                          const isConnected =
+                            await window.casperlabsHelper.isConnected();
+  
+                          if (!state && isConnected) {
+                            console.log(await window.casperlabsHelper);
+                            setState(
+                              await window.casperlabsHelper.getActivePublicKey()
+                            );
+                            setWalletType(WalletTypes.CASPER_SIGNER);
+                            onClose();
+                          }
+                        } catch (e) {
+                          console.log(e);
                         }
-                      } catch (e) {
-                        console.log(e);
+                      } else {
+                        onOpenTwo()
+                        onClose()
                       }
+                      
                     }
                   }}
                 />
@@ -197,6 +204,66 @@ export const LaunchApp = () => {
               <Image src={IconAssets.alertTriangle} /> Users will require a
               Casper Signer account to use the all features on our platform
             </Flex>
+          </Box>
+        </ModalContent>
+      </Modal>
+      <Modal isOpen={isOpenTwo} onClose={onCloseTwo}>
+        <ModalOverlay />
+
+        <ModalContent
+          color="black"
+          maxW="580px"
+          borderRadius="4px"
+          bg="transparent"
+        >
+          <Box
+            background="rgba(255, 255, 255, 0.01)"
+            boxShadow="inset 0px 0px 12.3205px rgba(255, 255, 255, 0.05), inset 0px 0.724735px 0.724735px rgba(255, 255, 255, 0.15)"
+            backdropFilter="blur(13px)"
+            borderRadius="8px"
+            border="1px solid rgba(133, 133, 133, 1)"
+            padding="13px"
+          >
+          
+            <Grid padding="55px 41px" borderRadius="4px" bg="#1D1D1D" gap="9px" position="relative">
+            <Image src={IconAssets.xCircle} onClick={onClose} pos="absolute" top="23px" right="23px" cursor="pointer"/>
+              <Box
+                letterSpacing="0.8em"
+                ml="2px"
+                fontSize="8px"
+                fontFamily="Chaney"
+              >
+                #CasperArmy
+              </Box>
+              <Text fontWeight="800" fontSize="30px" color="#FF0202">
+                ATTENTION
+              </Text>
+
+              <Text fontSize="16px" maxW="350px" color="#747474">
+                  Casper Signer extension not detected. 
+              </Text>
+            
+              <Flex justify="space-between" color="#747474" mt="20px">
+                <Link
+                  href="https://docs.casperlabs.io/workflow/signer-guide/"
+                  fontSize="12px"
+                  textDecoration="underline"
+                  fontWeight="500"
+                >
+                  Read Casper Signer guide
+                </Link>
+                <Link
+                  href="https://chrome.google.com/webstore/detail/casper-signer/djhndpllfiibmcdbnmaaahkhchcoijce"
+                  fontSize="12px"
+                  textDecoration="underline"
+                  fontWeight="500"
+                >
+                  Install Chrome Extension
+                </Link>
+              </Flex>
+              <Button mt="40px" h="70px" bg="#FF0202"> OK</Button>
+            </Grid>
+           
           </Box>
         </ModalContent>
       </Modal>
