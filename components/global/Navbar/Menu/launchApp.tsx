@@ -261,7 +261,7 @@ export const LaunchApp = () => {
                   Install Chrome Extension
                 </Link>
               </Flex>
-              <Button mt="40px" h="70px" bg="#FF0202"> OK</Button>
+              <Button mt="40px" h="70px" bg="#FF0202" onClick={onCloseTwo}> OK</Button>
             </Grid>
            
           </Box>
