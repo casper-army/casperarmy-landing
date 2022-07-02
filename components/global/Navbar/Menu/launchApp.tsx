@@ -226,7 +226,7 @@ export const LaunchApp = () => {
           >
           
             <Grid padding="55px 41px" borderRadius="4px" bg="#1D1D1D" gap="9px" position="relative">
-            <Image src={IconAssets.xCircle} onClick={onClose} pos="absolute" top="23px" right="23px" cursor="pointer"/>
+            <Image src={IconAssets.xCircle} onClick={onCloseTwo} pos="absolute" top="23px" right="23px" cursor="pointer"/>
               <Box
                 letterSpacing="0.8em"
                 ml="2px"
