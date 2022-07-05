@@ -57,8 +57,8 @@ export const StoreIntro = () => {
           </Paragraph>
           <Paragraph>
             To meet the needs of the users, in addition to paying with Casper
-            (CSPR) the sale will also be available on the ERC20 network (BUSD,
-            ETH), BSC BEP20 (BNB, BUSD, USDT) and Polygon (USDC, USDT).
+            (CSPR) the sale will also be available on the ERC20 network (USDC,
+             USDT, ETH), BSC BEP20 (BNB, BUSD, USDC, USDT) and Polygon (USDC, USDT).
           </Paragraph>
           <Box fontWeight="bold">
             Sign up for our newsletter so you don't miss the first round of
