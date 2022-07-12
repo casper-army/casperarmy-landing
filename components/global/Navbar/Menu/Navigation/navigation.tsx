@@ -34,7 +34,7 @@ export const Navigation: FC<INavigation> = ({ mobile, onClose}) => {
       <NavItem onClick={onClose} url="/tickets">Call-Up ticket</NavItem>
       <NavItem onClick={onClose} url="/stake">Staking</NavItem>
       <NavItem onClick={onClose} url="https://casperarmy.io/">Army NFT</NavItem>
-      <NavItem onClick={onClose} url="https://testnet.casper.army/">Launch App</NavItem>
+      <NavItem onClick={onClose} url="https://platform.casperarmy.org/">Launch App</NavItem>
     </Flex>
   );
 };
