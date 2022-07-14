@@ -20,7 +20,7 @@ const benefitList: Benefit[] = [
   {
     title: "Allocation",
     description:
-      "Guarantees allocation in future projects incubated on the platform.",
+      "It is the first step in obtaining allocations in future incubated projects on the platform.",
   },
   {
     title: "More points",
