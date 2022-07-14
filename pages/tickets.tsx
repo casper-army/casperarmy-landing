@@ -69,7 +69,7 @@ const Tickets: NextPage = () => {
             question:
               "How many tickets can I purchase? Can I resell my ticket?",
             answer:
-              "Each user can purchase a maximum of 10 tickets. Tickets are transferable, i.e., you can resell them to another user.",
+              "Each user can purchase a maximum of 100 tickets. Tickets are transferable, i.e., you can resell them to another user.",
           },
           {
             question: "What if not all tickets are sold?",
