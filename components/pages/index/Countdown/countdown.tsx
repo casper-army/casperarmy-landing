@@ -30,7 +30,7 @@ export const Countdown = () => {
           src={ElementAssets.ticketBackground}
           maxW="500px"
           bottom={{ base: "-20%", md: "-10%" }}
-          zIndex={{ base: "1", md: "0" }}
+          zIndex={{ base: "0", md: "0" }}
           left={{ base: "-50%", md: "-5%" }}
         />
         <Image

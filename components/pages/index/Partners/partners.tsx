@@ -59,9 +59,9 @@ export const Partners = () => {
       }}
     >
       <Marquee gradient={false}>
-        {partnersList.concat(partnersList).map((partner) => {
+        {partnersList.concat(partnersList).map((partner, index) => {
           return (
-            <Box  key={partner.key}>
+            <Box  key={partner.key + index}>
               <Link href={partner.url}>
                 <Image margin={{base: "0px 30px", md: "0px 50px", lg: "0px 50px"}} cursor="pointer" src={partner.image} />
               </Link>
