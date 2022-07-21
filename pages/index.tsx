@@ -130,7 +130,7 @@ const Home: NextPage = () => {
               image: ElementAssets.launchAppHomepage,
               soon: true,
               reversed: false,
-              href: "https://testnet.casper.army",
+              href: "https://casper.army",
               background: <></>
             },
           ]}
